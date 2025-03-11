@@ -6,7 +6,7 @@ Here you'll find a collection of projects I've completed.
 
 ## Proyects
 
-<img src="preview_spotify.png" alt="Dashboard Preview" width="400"/>
+<img src="Spotify-Analysis/preview_spotify.png" alt="Dashboard Preview" width="400"/>
 ### 1. [Spotify-Analysis](Spotify-Analysis/)
 - **Description**: Exploring the relationship between the characteristics of the most popular songs in 73 countries.
 - **Tools**: Python, Machine Learning, Streamlit.
