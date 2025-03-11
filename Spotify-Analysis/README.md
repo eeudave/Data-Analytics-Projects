@@ -1,10 +1,10 @@
 # Spotify Popularity Analisis
 
-## Objective/Scope: Explore the relationship between the characteristics of the most popular songs in 73 countries.
+### Objective/Scope: Explore the relationship between the characteristics of the most popular songs in 73 countries.
 
-## Tools: Python, Machine Learning, Streamlit
+### Tools: Python, Machine Learning, Streamlit
 
-## Application: Interactive Dashboard generated in Python/Stremlit for data visualization and grouping of songs with similar characteristics using Machine Learning algorithms.
+### Application: Interactive Dashboard generated in Python/Stremlit for data visualization and grouping of songs with similar characteristics using Machine Learning algorithms.
 
 - Song data from 73 countries (archivo csv)
 universal_top_spotify_songs.csv
