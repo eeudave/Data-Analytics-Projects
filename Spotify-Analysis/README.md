@@ -11,7 +11,7 @@
 #### - Song data from 73 countries (csv file)
 https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated
 
-#### - Data Cleanup Script (generates spotify_clean.csv file)
+#### - Data Cleanup Notebook (generates spotify_clean.csv file)
 Cleanup Spotify.ipynb
 
 #### - World Map to highlight countries (json file)
