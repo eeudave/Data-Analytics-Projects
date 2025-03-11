@@ -1,7 +1,6 @@
 # Spotify Popularity Analisis
 
 ![Dashboard Preview](preview_spotify.png)
-<img src="preview_spotify.png" alt="Dashboard Preview" width="400"/>
 
 ### Objective/Scope: Explore the relationship between the characteristics of the most popular songs in 73 countries.
 
