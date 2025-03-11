@@ -1,7 +1,7 @@
 # Data-Analytics-Projects
 The most outstanding projects of the Data Analytics Bootcamp
 
-Hi! I'm Erik Eudave, a Data Analyst with experience in Python, Streamlit, R, SQL, PowerBI, Tableau an Machine Learning.
+Hi! I'm Erik Eudave, a Data Analyst with experience in Python, Streamlit, R, SQL, PowerBI, Tableau and Machine Learning.
 Here you'll find a collection of projects I've completed.
 
 ## Proyects
