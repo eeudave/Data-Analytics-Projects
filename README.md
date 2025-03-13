@@ -11,6 +11,7 @@ Here you'll find a collection of projects I've completed.
 ### 1. [Spotify-Analysis](Spotify-Analysis/) (Final Bootcamp Project)
 
 <img src="Spotify-Analysis/preview_spotify.png" alt="Dashboard Preview" width="500"/>
+<img src="Spotify-Analysis/preview_clusters.png" alt="Dashboard Preview" width="500"/>
 
 - **Description**: Exploring the relationship between the characteristics of the most popular songs in 73 countries.
 - **Machine Learning**: Generates song clusters based on their characteristics using K-Means algorithm and performs dimensionality reduction with PCA for visualization.
