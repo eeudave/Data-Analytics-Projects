@@ -40,27 +40,44 @@ Here you'll find a collection of projects I've completed.
 
 ---
 
-<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+<img src="Python/collagePython.png" alt="Dashboard Preview" width="500"/>
 
 ### 4. [Python](Python/)
 - **Description**: Some code exercises donde in Python.
-- **Tools**: Python: Loops and Conditionals, Data Types, Objects, Matplotlib, Seaborn, Plotly, NumPy, Pandas.
+- **Tools**: Python: Loops and Conditionals, Data Types, Objects, Matplotlib, Seaborn, Plotly, Pyodbc, NumPy, Pandas.
 - **Results**: understand and know how to use the main libraries.
 
 ---
 
-<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+<img src="Machine-Learning\LinearRegresion/lineal.png" alt="Dashboard Preview" width="500"/>
+<img src="Machine-Learning\HierarchicalCluster/jerarquico.png" alt="Dashboard Preview" width="500"/>
+<img src="Machine-Learning\NonHierarchicalCluster/nojerarquico.png" alt="Dashboard Preview" width="500"/>
+<img src="Machine-Learning\Trees/arboles.png" alt="Dashboard Preview" width="500"/>
 
-### 5. [R](R/)
+### 5. [Machine Learning](Machine-Learning/)
+- **Description**: Some Machine Learning code exercises done in Python.
+- **Tools**: Python: Pandas, NumPy, Matplotlib, Seaborn, StatsModels, SciPy, Sklearn.
+- **Results**: We were able to generate and apply some of the most common Machine Learning models:
+  - Linear/Logistic Regression
+  - K-Means Clustering
+  - K-Nearest Neighbors (KNN)
+  - Decision Trees
+  - Random Forest
+
+---
+
+<img src="R/collageR.png" alt="Dashboard Preview" width="200"/>
+
+### 6. [R](R/)
 - **Description**: Some code exercises done in R.
-- **Tools**: R:.
+- **Tools**: R: Readr, Dplyr, Tidyr, Stringr, Lubridate, Forecats, Ggplot, Plotly.
 - **Results**: understand and know how to use the main libraries.
 
 ---
 
-<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+<img src="SQL/sql.png" alt="Dashboard Preview" width="200"/>
 
-### 6. [SQL](SQL/)
+### 7. [SQL](SQL/)
 - **Description**: Some code exercises donde in SQL.
 - **Tools**: SQL:.
 - **Results**: understand and know how to use the main libraries.
