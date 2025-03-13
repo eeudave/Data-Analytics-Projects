@@ -6,9 +6,11 @@ Here you'll find a collection of projects I've completed.
 
 ## Proyects
 
+---
+
 <img src="Spotify-Analysis/preview_spotify.png" alt="Dashboard Preview" width="400"/>
 
-### 1. [Spotify-Analysis](Spotify-Analysis/)
+### 1. [Spotify-Analysis](Spotify-Analysis/) (Final Bootcamp Project)
 - **Description**: Exploring the relationship between the characteristics of the most popular songs in 73 countries.
 - **Machine Learning**: Generates song clusters based on their characteristics using K-Means algorithm and performs dimensionality reduction with PCA for visualization.
 - **Tools**: Python, Machine Learning, Streamlit.
@@ -24,4 +26,14 @@ Here you'll find a collection of projects I've completed.
 ### 2. [PowerBI](PowerBI/)
 - **Description**: Some of the dashboards generated in PowerBI using tools such as DAX and database connections.
 - **Tools**: PowerBI, DAX, DB Connection.
-- **Results**: Powerful visualizations that deliver valuable information in different markets by applying PowerBI's own tools.
+- **Results**: Powerful visualizations that deliver valuable information in different markets by applying PowerBI's tools.
+
+---
+
+<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="400"/>
+<img src="Tableau\employees/employees.png" alt="Dashboard Preview" width="200"/>
+
+### 2. [Tableau](Tableau/)
+- **Description**: Some of the dashboards generated in Tableau.
+- **Tools**: Tableau, dimensions, measurements and maps.
+- **Results**: Powerful visualizations that deliver valuable information in different markets by applying Tableau tools.
