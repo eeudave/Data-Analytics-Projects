@@ -45,7 +45,7 @@ Here you'll find a collection of projects I've completed.
 ### 4. [Python](Python/)
 - **Description**: Some code exercises donde in Python.
 - **Tools**: Python: Loops and Conditionals, Data Types, Objects, Matplotlib, Seaborn, Plotly, Pyodbc, NumPy, Pandas.
-- **Results**: understand and know how to use the main libraries.
+- **Results**: Understand and know how to use the main libraries.
 
 ---
 
@@ -66,7 +66,7 @@ Here you'll find a collection of projects I've completed.
 
 ---
 
-<img src="R/collageR.png" alt="Dashboard Preview" width="200"/>
+<img src="R/collageR.png" alt="Dashboard Preview" width="500"/>
 
 ### 6. [R](R/)
 - **Description**: Some code exercises done in R.
