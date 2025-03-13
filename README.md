@@ -15,9 +15,12 @@ Here you'll find a collection of projects I've completed.
 - **Results**: Some songs and artists are popular in multiple countries, suggesting a global trend. However, there are also songs that are popular only in specific regions. Musical characteristics such as danceability and energy are key to popularity.
 - **NOTE** This project was chosen as the best within the data analytics bootcamp.
 
+---
+
 <img src="PowerBI\Dashboard-Finanzas/preview_dashboardfin.png" alt="Dashboard Preview" width="400"/>
 <img src="PowerBI\Dashboard-RH/preview_dashboardrh.png" alt="Dashboard Preview" width="400"/>
 <img src="PowerBI\Dashboard-Supermercado/preview_supermercado.png" alt="Dashboard Preview" width="400"/>
+
 ### 2. [PowerBI](PowerBI/)
 - **Description**: Some of the dashboards generated in PowerBI using tools such as DAX and database connections.
 - **Tools**: PowerBI, DAX, DB Connection.
