@@ -30,8 +30,10 @@ Here you'll find a collection of projects I've completed.
 
 ---
 
-<img src="Tableau\employees/employees.png" alt="Dashboard Preview" width="500"/>
-<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+<div style="display: flex;">
+  <img src="Tableau/employees/employees.png" alt="Dashboard Preview" width="500"/>
+  <img src="Tableau/e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+</div>
 
 ### 3. [Tableau](Tableau/)
 - **Description**: Some of the dashboards generated in Tableau.
