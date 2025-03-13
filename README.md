@@ -8,7 +8,7 @@ Here you'll find a collection of projects I've completed.
 
 ---
 
-<img src="Spotify-Analysis/preview_spotify.png" alt="Dashboard Preview" width="400"/>
+<img src="Spotify-Analysis/preview_spotify.png" alt="Dashboard Preview" width="500"/>
 
 ### 1. [Spotify-Analysis](Spotify-Analysis/) (Final Bootcamp Project)
 - **Description**: Exploring the relationship between the characteristics of the most popular songs in 73 countries.
@@ -19,9 +19,9 @@ Here you'll find a collection of projects I've completed.
 
 ---
 
-<img src="PowerBI\Dashboard-Finanzas/preview_dashboardfin.png" alt="Dashboard Preview" width="400"/>
-<img src="PowerBI\Dashboard-RH/preview_dashboardrh.png" alt="Dashboard Preview" width="400"/>
-<img src="PowerBI\Dashboard-Supermercado/preview_supermercado.png" alt="Dashboard Preview" width="400"/>
+<img src="PowerBI\Dashboard-Finanzas/preview_dashboardfin.png" alt="Dashboard Preview" width="500"/>
+<img src="PowerBI\Dashboard-RH/preview_dashboardrh.png" alt="Dashboard Preview" width="500"/>
+<img src="PowerBI\Dashboard-Supermercado/preview_supermercado.png" alt="Dashboard Preview" width="500"/>
 
 ### 2. [PowerBI](PowerBI/)
 - **Description**: Some of the dashboards generated in PowerBI using tools such as DAX and database connections.
@@ -30,7 +30,7 @@ Here you'll find a collection of projects I've completed.
 
 ---
 
-<img src="Tableau\employees/employees.png" alt="Dashboard Preview" width="400"/>
+<img src="Tableau\employees/employees.png" alt="Dashboard Preview" width="500"/>
 <img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
 
 ### 2. [Tableau](Tableau/)
