@@ -25,7 +25,7 @@ Here you'll find a collection of projects I've completed.
 
 ### 2. [PowerBI](PowerBI/)
 - **Description**: Some of the dashboards generated in PowerBI using tools such as DAX and database connections.
-- **Tools**: PowerBI, DAX, DB Connection.
+- **Tools**: PowerBI: DAX, DB Connection.
 - **Results**: Powerful visualizations that deliver valuable information in different markets by applying PowerBI's tools.
 
 ---
@@ -33,7 +33,36 @@ Here you'll find a collection of projects I've completed.
 <img src="Tableau\employees/employees.png" alt="Dashboard Preview" width="500"/>
 <img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
 
-### 2. [Tableau](Tableau/)
+### 3. [Tableau](Tableau/)
 - **Description**: Some of the dashboards generated in Tableau.
-- **Tools**: Tableau, dimensions, measurements and maps.
+- **Tools**: Tableau: Dimensions, Measurements and Maps.
 - **Results**: Powerful visualizations that deliver valuable information in different markets by applying Tableau tools.
+
+---
+
+<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+
+### 4. [Python](Python/)
+- **Description**: Some code exercises donde in Python.
+- **Tools**: Python: Loops and Conditionals, Data Types, Objects, Matplotlib, Seaborn, Plotly, NumPy, Pandas.
+- **Results**: understand and know how to use the main libraries.
+
+---
+
+<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+
+### 5. [R](R/)
+- **Description**: Some code exercises done in R.
+- **Tools**: R:.
+- **Results**: understand and know how to use the main libraries.
+
+---
+
+<img src="Tableau\e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
+
+### 6. [SQL](SQL/)
+- **Description**: Some code exercises donde in SQL.
+- **Tools**: SQL:.
+- **Results**: understand and know how to use the main libraries.
+
+---
