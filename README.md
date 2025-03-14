@@ -26,8 +26,7 @@ Here you'll find a collection of projects I've completed.
   - Discovered that certain songs are popular only in specific regions, highlighting cultural preferences.
   - Found that musical characteristics such as **danceability** and **energy** are key drivers of song popularity.
 - **Achievements**: 
-  - This project was selected as the **<u>Best Project</u>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
-  - This project was selected as the **<u><span style="color: green;">Best Project</span></u>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
+  - This project was selected as the **<span style="color: green; text-decoration: underline;">Best Project</span>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
 
   
 <!-- - **Live Demo**: [View the interactive Streamlit app here](#). -->
