@@ -1,5 +1,5 @@
 # Data-Analytics-Projects
-The most outstanding projects of the Data Analytics Bootcamp
+The most outstanding projects of the Data Analytics Bootcamp at NEOLAND.
 
 Hi! I'm Erik Eudave, a Data Analyst with experience in Python, Streamlit, R, SQL, PowerBI, Tableau and Machine Learning.
 Here you'll find a collection of projects I've completed.
@@ -27,9 +27,9 @@ Here you'll find a collection of projects I've completed.
 <img src="PowerBI\Dashboard-RH/preview_dashboardrh.png" alt="Dashboard Preview" width="500"/>
 <img src="PowerBI\Dashboard-Supermercado/preview_supermercado.png" alt="Dashboard Preview" width="500"/>
 
-- **Description**: Some of the dashboards generated in PowerBI using tools such as DAX and database connections.
+- **Description**: - **Description**: Interactive dashboards developed in Power BI using DAX for advanced calculations, database connections, and custom visualizations. .
 - **Tools**: PowerBI: DAX, DB Connection.
-- **Results**: Powerful visualizations that deliver valuable information in different markets by applying PowerBI's tools.
+- **Results**: These dashboards provide actionable insights for sales analysis, financial reporting, and operational performance tracking.
 
 ---
 
@@ -40,9 +40,9 @@ Here you'll find a collection of projects I've completed.
   <img src="Tableau/e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
 </div>
 
-- **Description**: Some of the dashboards generated in Tableau.
+- **Description**: Interactive dashboards developed in Tableau using advanced calculations, database connections, and custom visualizations.
 - **Tools**: Tableau: Dimensions, Measurements and Maps.
-- **Results**: Powerful visualizations that deliver valuable information in different markets by applying Tableau tools.
+- **Results**: Powerful visualizations that provide actionable insights for sales analysis, financial reporting, and operational performance tracking.
 
 ---
 
@@ -50,9 +50,9 @@ Here you'll find a collection of projects I've completed.
 
 <img src="Python/collagePython.png" alt="Dashboard Preview" width="500"/>
 
-- **Description**: Some code exercises donde in Python.
+- **Description**: **Description**: A collection of Python coding exercises focused on data manipulation, algorithm development, and data visualization.
 - **Tools**: Python: Loops and Conditionals, Data Types, Objects, Matplotlib, Seaborn, Plotly, Pyodbc, NumPy, Pandas.
-- **Results**: Understand and know how to use the main libraries.
+- **Results**: These exercises utilize libraries to solve real-world problems and improve programming skills enabling efficient data analysis and the creation of impactful visualizations.
 
 ---
 
@@ -63,9 +63,9 @@ Here you'll find a collection of projects I've completed.
 <img src="Machine-Learning\NonHierarchicalCluster/nojerarquico.png" alt="Dashboard Preview" width="500"/>
 <img src="Machine-Learning\Trees/arboles.png" alt="Dashboard Preview" width="500"/>
 
-- **Description**: Some Machine Learning code exercises done in Python.
+- **Description**: Machine Learning code exercises in Python implementing regression, classification, and tree models.
 - **Tools**: Python: Pandas, NumPy, Matplotlib, Seaborn, StatsModels, SciPy, Sklearn.
-- **Results**: We were able to generate and apply some of the most common Machine Learning models:
+- **Results**: Successfully generated and applied common Machine Learning models to solve real-world problems:
   - Linear/Logistic Regression
   - K-Means Clustering
   - K-Nearest Neighbors (KNN)
@@ -78,18 +78,20 @@ Here you'll find a collection of projects I've completed.
 
 <img src="R/collageR.png" alt="Dashboard Preview" width="500"/>
 
-- **Description**: Some code exercises done in R.
+- **Description**: R programming exercises focusing on data manipulation, visualization, and statistical analysis.
 - **Tools**: R: Readr, Dplyr, Tidyr, Stringr, Lubridate, Forecats, Ggplot, Plotly.
-- **Results**: understand and know how to use the main libraries.
+- **Results**: Achieved proficiency in R's main libraries, enabling efficient data analysis and the creation of impactful visualizations.
 
 ---
 
 ### 7. [SQL](SQL/)
 
-<img src="SQL/sql.png" alt="Dashboard Preview" width="200"/>
+<img src="SQL/mssqlserver.png" alt="Dashboard Preview" width="500"/>
+<img src="SQL/dbeaver.png" alt="Dashboard Preview" width="500"/>
+<img src="SQL/lucid.png" alt="Dashboard Preview" width="500"/>
 
-- **Description**: Some code exercises donde in SQL.
-- **Tools**: SQL:.
-- **Results**: understand and know how to use the main libraries.
+- **Description**: SQL exercises designed to improve query writing and database management skills.
+- **Tools**: DBeaver, Microsoft SQL Server Management Studio (SSMS), Lucid (ER Diagrams).
+- **Results**: Achieved proficiency in writing efficient SQL queries and optimizing database performance, supporting data-driven decision-making.
 
 ---
