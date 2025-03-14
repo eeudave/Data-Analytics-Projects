@@ -98,7 +98,7 @@ Here you'll find a collection of projects I've completed.
 
 ### 7. [SQL](SQL/)
 
-<img src="SQL/sql.png" alt="Dashboard Preview" width="800"/>
+<img src="SQL/sql.png" alt="Dashboard Preview" width="700"/>
 <img src="SQL/lucid.png" alt="Dashboard Preview" width="500"/>
 
 - **Description**: SQL exercises designed to improve query writing and database management skills.
