@@ -27,6 +27,8 @@ Here you'll find a collection of projects I've completed.
   - Found that musical characteristics such as **danceability** and **energy** are key drivers of song popularity.
 - **Achievements**: 
   - This project was selected as the **<u>Best Project</u>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
+  - This project was selected as the **<u><span style="color: green;">Best Project</span></u>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
+
   
 <!-- - **Live Demo**: [View the interactive Streamlit app here](#). -->
 
