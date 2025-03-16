@@ -17,10 +17,14 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
+base_dir = os.path.dirname(os.path.abspath(__file__))  # Carpeta de app.py
+
+
 # Configuración de la página
+icon_path = os.path.join(base_dir, "visualizations", "Spotify_Primary_Logo_RGB_Green.png")
 st.set_page_config(
     page_title="Analisis de Popularidad Spotify",
-    page_icon="visualizations/Spotify_Primary_Logo_RGB_Green.png",  # Ruta de la imagen del ícono
+    page_icon=icon_path,  # Ruta de la imagen del ícono
     layout="wide"
 )
 
@@ -29,7 +33,6 @@ st.set_page_config(
 
 
 # Obtener la ruta absoluta del archivo
-base_dir = os.path.dirname(os.path.abspath(__file__))  # Carpeta de app.py
 data_path = os.path.join(base_dir, "data", "spotify_clean.csv")
 
 
@@ -85,7 +88,6 @@ def get_coordenadas(codigo):
 df = cargar_datos()      
 
 # Obtener la ruta absoluta del archivo
-#base_dir = os.path.dirname(os.path.abspath(__file__))  # Carpeta de app.py
 map_path = os.path.join(base_dir, "data", "custom.geo.json")
 
 # Cargar el archivo GeoJSON
@@ -251,7 +253,8 @@ st.markdown("""
 # Sidebar: Seleccionar país
 with st.sidebar:
     # Logo Spotify
-    st.image("visualizations/Spotify_Full_Logo_RGB_Black.png", width=220, use_container_width=False)
+    logo_path = os.path.join(base_dir, "visualizations", "Spotify_Full_Logo_RGB_Black.png")
+    st.image(logo_path, width=220, use_container_width=False)
     #st.header("Selecciona un país")
     nombres_paises = ["Global"] + sorted(nombres_paises)
     pais_seleccionado = st.selectbox("País:", nombres_paises, index=0)
