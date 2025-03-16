@@ -84,8 +84,12 @@ def get_coordenadas(codigo):
 # Cargar datos
 df = cargar_datos()      
 
+# Obtener la ruta absoluta del archivo
+#base_dir = os.path.dirname(os.path.abspath(__file__))  # Carpeta de app.py
+map_path = os.path.join(base_dir, "data", "custom.geo.json")
+
 # Cargar el archivo GeoJSON
-geojson_data = cargar_geojson("data/custom.geo.json")
+geojson_data = cargar_geojson(map_path)
 
 # Lista de nombres de países 
 nombres_paises = sorted(df['country_name'].unique())
