@@ -24,5 +24,5 @@
 
 #### **World Map To Highlight Countries**: [custom.geo.json](https://geojson-maps.kyd.au/)
 
-#### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="10"/>](https://developer.spotify.com/documentation/design#using-our-logo)
+#### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="15"/>](https://developer.spotify.com/documentation/design#using-our-logo)
 
