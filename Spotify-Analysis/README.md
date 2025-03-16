@@ -1,4 +1,4 @@
-# Spotify Popularity Analisis <img src="visualizations/Spotify_Full_Logo_RGB_Green.png" alt="Spotify Logo" width="50"/>
+# Spotify Popularity Analisis
 
 <img src="visualizations/preview_spotify.png" alt="Dashboard Preview" width="600"/>
 <img src="visualizations/preview_clusters.png" alt="Dashboard Preview" width="600"/>
@@ -24,5 +24,5 @@
 
 #### **World Map To Highlight Countries**: [custom.geo.json](https://geojson-maps.kyd.au/)
 
-#### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="50"/>](https://developer.spotify.com/documentation/design#using-our-logo)
+#### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="20"/>](https://developer.spotify.com/documentation/design#using-our-logo)
 
