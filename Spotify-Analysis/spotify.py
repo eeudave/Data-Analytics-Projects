@@ -27,10 +27,16 @@ st.set_page_config(
 # Título y descripción
 #st.title("Analisis de Popularidad Spotify Global")
 
+
+# Obtener la ruta absoluta del archivo
+base_dir = os.path.dirname(os.path.abspath(__file__))  # Carpeta de app.py
+data_path = os.path.join(base_dir, "data", "spotify_clean.csv")
+
+
 # Función para cargar el DataFrame (se cachea para no recargarlo cada vez)
 @st.cache_data
 def cargar_datos():
-    data = pd.read_csv("data/spotify_clean.csv",delimiter = ",")
+    data = pd.read_csv(data_path,delimiter = ",")
     # Cambiamos el formato de las fechas
     data['snapshot_date'] = pd.to_datetime(data['snapshot_date'], format='%Y-%m-%d')
     data['album_release_date'] = pd.to_datetime(data['album_release_date'], format='%Y-%m-%d')    
