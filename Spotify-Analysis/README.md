@@ -4,7 +4,7 @@
 <img src="visualizations/preview_clusters.png" alt="Dashboard Preview" width="600"/>
 
 ### **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and tempo.
-### **Data Source**: Song data from 73 countries.
+### **Data Source**: 
   - **Kaggle**: [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
 ### **Machine Learning**: 
   - Utilized the **K-Means clustering algorithm** to group songs based on their audio features.
@@ -21,8 +21,6 @@
   - This project was selected as the **<span style="color: green; text-decoration: underline;">Best Project</span>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
 
 #### **Data Cleanup Notebook (Generates spotify_clean.csv file)**: [Cleanup_Spotify.ipynb](notebooks/Cleanup_Spotify.ipynb)
-
 #### **World Map To Highlight Countries**: [custom.geo.json](https://geojson-maps.kyd.au/)
-
 #### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="15"/>](https://developer.spotify.com/documentation/design#using-our-logo)
 
