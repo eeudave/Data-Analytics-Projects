@@ -1,7 +1,7 @@
 # Spotify Popularity Analisis
 
-<img src="Spotify-Analysis\visualizations/preview_spotify.png" alt="Dashboard Preview" width="500"/>
-<img src="Spotify-Analysis\visualizations/preview_clusters.png" alt="Dashboard Preview" width="500"/>
+<img src="visualizations/preview_spotify.png" alt="Dashboard Preview" width="500"/>
+<img src="visualizations/preview_clusters.png" alt="Dashboard Preview" width="500"/>
 
 ### **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and tempo.
 ### **Data Source**: Song data from 73 countries (csv file).
@@ -22,7 +22,7 @@
 
 #### **Data Cleanup Notebook**: [Generates spotify_clean.csv file](notebooks/Cleanup_Spotify.ipynb)
 
-#### **World Map To Highlight Countries**: [custom.geo.json] (https://geojson-maps.kyd.au/)
+#### **World Map To Highlight Countries**: ['custom.geo.json'] (https://geojson-maps.kyd.au/)
 
 #### **Spotify Logo and Icon**: (https://developer.spotify.com/documentation/design#using-our-logo)
 
