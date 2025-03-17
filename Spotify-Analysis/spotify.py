@@ -203,7 +203,7 @@ st.markdown("""
     /* Cambiar color de la pestaña seleccionada */
     .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
         color: #1ED760 !important;  /* Texto verde */
-        border-bottom: 2px solid #1ED760 !important;  /* Línea inferior verde */
+        border-bottom: 3px solid #1ED760 !important;  /* Línea inferior verde */
         /*font-weight: bold !important;  Negrita */
         border-radius: 15px 15px 0px 0px !important; /* Bordes redondeados arriba */
         padding: 10px 20px !important; /* Ajustar padding */
@@ -267,16 +267,6 @@ st.markdown("""
         color: white !important; /* Texto blanco */
         font-size: 18px !important;
     }
-
-    /* Cambiar el color de la barra seleccionada del slider */
-    div[data-testid="stSlider"] div[data-baseweb="slider"] > div:first-child > div:first-child {
-        background-color: #1ED760 !important; /* Verde Spotify */
-    }
-
-    /* Cambiar el color del riel del slider (parte no seleccionada) */
-    div[data-baseweb="slider"] > div > div > div:nth-child(2) {
-        background-color: #333333 !important; /* Gris oscuro */
-    } 
 
     /* Cambiar el color del círculo (thumb) del slider */
     [data-baseweb="slider"] [role="slider"] {
