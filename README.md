@@ -1,4 +1,4 @@
-# Data-Analytics-Projects
+# Data Analytics Projects
 The most outstanding projects of the Data Analytics Bootcamp at NEOLAND.
 
 Hi! I'm Erik Eudave, a Data Analyst with experience in Python, Streamlit, R, SQL, PowerBI, Tableau and Machine Learning.
@@ -12,6 +12,8 @@ Here you'll find a collection of projects I've completed.
 
 <img src="Spotify-Analysis\visualizations/preview_spotify.png" alt="Dashboard Preview" width="500"/>
 <img src="Spotify-Analysis\visualizations/preview_clusters.png" alt="Dashboard Preview" width="500"/>
+
+- **Live Demo**: [View the interactive Streamlit app here](https://data-analytics-spotify.streamlit.app)
 
 - **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and tempo.
 - **Data source**: Song data from 73 countries (csv file).
@@ -28,10 +30,7 @@ Here you'll find a collection of projects I've completed.
   - Discovered that certain songs are popular only in specific regions, highlighting cultural preferences.
   - Found that musical characteristics such as **danceability** and **energy** are key drivers of song popularity.
 - **Achievements**: 
-  - This project was selected as the **<span style="color: green; text-decoration: underline;">Best Project</span>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
-
-  
-<!-- - **Live Demo**: [View the interactive Streamlit app here](#). -->
+  - This project was selected as the **<span style="color: green; text-decoration: underline;">Best Project</span>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights. 
 
 ---
 
