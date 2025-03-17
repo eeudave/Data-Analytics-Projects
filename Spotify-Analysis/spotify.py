@@ -218,7 +218,7 @@ st.markdown("""
     /* Contenedor del slider */
     [data-testid="stSlider"] {
         background-color: black !important; /* Fondo negro */
-        border: 2px solid #1ED760 !important; /* Borde verde */
+        border: 3px solid #1ED760 !important; /* Borde verde */
         border-radius: 8px !important; /* Bordes redondeados */
         padding: 10px !important; /* Espaciado interno */
     }
@@ -229,10 +229,15 @@ st.markdown("""
         font-size: 18px !important;
     }
 
-    /* Cambiar el color de la barra seleccionada del slider en Streamlit */
-    div[data-baseweb="slider"] > div > div > div:nth-child(2) {
+    /* Cambiar el color de la barra seleccionada del slider */
+    div[data-testid="stSlider"] div[data-baseweb="slider"] > div:first-child > div:first-child {
         background-color: #1ED760 !important; /* Verde Spotify */
     }
+
+    /* Cambiar el color del riel del slider (parte no seleccionada) */
+    div[data-baseweb="slider"] > div > div > div:nth-child(2) {
+        background-color: #333333 !important; /* Gris oscuro */
+    } 
 
     /* Cambiar el color del círculo (thumb) del slider */
     [data-baseweb="slider"] [role="slider"] {
