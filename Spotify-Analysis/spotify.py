@@ -17,8 +17,8 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-base_dir = os.path.dirname(os.path.abspath(__file__))  # Carpeta de app.py
-
+# Para obtener la ruta absoluta de los archivos
+base_dir = os.path.dirname(os.path.abspath(__file__))  
 
 # Configuración de la página
 icon_path = os.path.join(base_dir, "visualizations", "Spotify_Primary_Logo_RGB_Green.png")
@@ -81,6 +81,45 @@ def get_coordenadas(codigo):
     else:
         #print(f"País o código '{codigo}' no encontrado.")
         return (20, 0) # Si no se encuentra, devolver coordenadas del mundo
+
+# Agrega mapas que no estan en json por codio -99
+def style_function(feature):
+    country_code = feature["properties"]["iso_a2"]
+    country_name = feature["properties"]["name"]
+    
+    # Si el país tiene código -99, intentar obtener el código correcto por nombre
+    if country_code == "-99":
+        correct_code = obtener_codigo_pais(country_name)
+        if correct_code:
+            country_code = correct_code
+    
+    return {
+        "fillColor": "#1ED760" if country_code in codigos_paises else "#FFFFFF",
+        "color": "black",
+        "weight": 1,
+        "fillOpacity": 0.3 if country_code in codigos_paises else 0.1,
+    }
+
+# Resalta mapas que no estan en json por codio -99
+def highlight_function(feature):
+    country_code = feature["properties"]["iso_a2"]
+    country_name = feature["properties"]["name"]
+    
+    # Si el país tiene código -99, intentar obtener el código correcto por nombre
+    if country_code == "-99":
+        correct_code = obtener_codigo_pais(country_name)
+        if correct_code:
+            country_code = correct_code
+
+    # Verificar si es el país seleccionado
+    is_selected = (country_code == codigo_pais) or (country_name == pais_seleccionado)        
+    
+    return {
+        "fillColor": "#1ED760" if feature["properties"]["iso_a2"] == codigo_pais else "#FFFFFF",
+        "color": "black",
+        "weight": 1,
+        "fillOpacity": 0.9 if feature["properties"]["iso_a2"] == codigo_pais else 0.1,
+    }    
 
 # Cargar datos
 df = cargar_datos()      
@@ -449,12 +488,7 @@ with tab_analisis:
         folium.GeoJson(
             geojson_data,
             name="geojson",
-            style_function=lambda feature: {
-                "fillColor": "#1ED760" if feature["properties"]["iso_a2"] in codigos_paises else "#FFFFFF",
-                "color": "black",
-                "weight": 1,
-                "fillOpacity": 0.3 if feature["properties"]["iso_a2"] in codigos_paises else 0.1,
-            },
+            style_function=style_function,
             tooltip=folium.GeoJsonTooltip(
                 fields=['name'],
                 aliases=['País:'],
@@ -462,26 +496,12 @@ with tab_analisis:
             )
         ).add_to(m)
 
-        # Agregar un polígono para colorear los océanos
-        folium.GeoJson(
-            data={
-                "type": "Polygon",
-                "coordinates": [[[-180, -90], [-180, 90], [180, 90], [180, -90], [-180, -90]]]
-            },
-            style_function=lambda x: {"fillColor": "white", "color": "white"}
-        ).add_to(m)
-
         # Resaltar el país seleccionado en el mapa
         if pais_seleccionado and codigo_pais:
             folium.GeoJson(
                 geojson_data,
                 name="geojson",
-                style_function=lambda feature: {
-                    "fillColor": "#1ED760" if feature["properties"]["iso_a2"] == codigo_pais else "#FFFFFF",
-                    "color": "black",
-                    "weight": 1,
-                    "fillOpacity": 0.9 if feature["properties"]["iso_a2"] == codigo_pais else 0.1,
-                },
+                style_function=highlight_function,
                 tooltip=folium.GeoJsonTooltip(
                     fields=['name'],
                     aliases=['País:'],
