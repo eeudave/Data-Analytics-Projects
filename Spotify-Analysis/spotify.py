@@ -31,10 +31,8 @@ st.set_page_config(
 # Título y descripción
 #st.title("Analisis de Popularidad Spotify Global")
 
-
 # Obtener la ruta absoluta del archivo
 data_path = os.path.join(base_dir, "data", "spotify_clean.csv")
-
 
 # Función para cargar el DataFrame (se cachea para no recargarlo cada vez)
 @st.cache_data
@@ -135,45 +133,23 @@ st.markdown("""
     }
 
     /* Selectbox en el sidebar */
-    .stSelectbox > div > div > div {
-        background-color: black !important;
+    [data-testid="stSelectbox"] > div > div > div {
+        background-color: black !important; 
         color: #FFFFFF !important;
-        border: 2px solid #1ED760 !important; /* Borde verde de Spotify */
-        border-radius: 5px !important;
+        border: 2px solid #1ED760 !important;  Borde verde de Spotify 
+        border-radius: 8px !important; 
     }
-    
-    /* Texto dentro del selectbox */
-    .stSelectbox > div > div > div > div {
-        color: #FFFFFF !important;
-    }
-    
+
     /* Ícono del dropdown */
-    .stSelectbox > div > div > div > div > svg {
-        fill: #FFFFFF !important;
-    }
-    
-    /* Menú desplegable */
-    .stSelectbox select {
-        background-color: black !important;
-        color: #FFFFFF !important;
-    }
-    
-    /* Opciones del menú desplegable */
-    .stSelectbox select option {
-        background-color: black !important;
-        color: #FFFFFF !important;
+    [data-testid="stSelectbox"] svg {
+        fill: #FFFFFF !important;  /* Hace que el icono sea blanco */
+        color: #FFFFFF !important; /* Asegura que el color del icono también sea blanco */
     }
 
-    /* Ajustar el ancho del contenedor principal */
-    .main .block-container {
-        max-width: 100% !important;  /* Usa el 100% del ancho disponible */
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
+    /* Texto pestañas */
     .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
-        font-size: 20px;  /* Tamaño de la fuente */
-        font-weight: bold;  /* Negrita */
+        font-size: 18px;  /* Tamaño de la fuente */
+        /*font-weight: bold;   Negrita */
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
@@ -185,59 +161,85 @@ st.markdown("""
         padding-right: 0px !important;
     }
 
-    /* Ajustar el ancho del sidebar */
+    /* Cambiar color de la pestaña seleccionada */
+    .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+        color: #1ED760 !important;  /* Texto verde */
+        border-bottom: 2px solid #1ED760 !important;  /* Línea inferior verde */
+        /*font-weight: bold !important;  Negrita */
+        border-radius: 15px 15px 0px 0px !important; /* Bordes redondeados arriba */
+        padding: 10px 20px !important; /* Ajustar padding */
+    }
+
+    /* Color de las pestañas no seleccionadas */
+    .stTabs [data-baseweb="tab-list"] button {
+        color: white !important;  /* Texto blanco */
+        background-color: black !important; /* Fondo negro */
+        border-radius: 15px 15px 0px 0px !important; /* Bordes redondeados arriba */
+        padding: 10px 20px !important;
+    }
+
+    /* Efecto hover en las pestañas */
+    .stTabs [data-baseweb="tab-list"] button:hover {
+        color: #1ED760 !important;
+    }
+
+    /* Ajustar el ancho y color del sidebar */
     [data-testid="stSidebar"] {
         min-width: 200px !important;  /* Ancho mínimo */
         max-width: 300px !important;  /* Ancho máximo */
         width: 100% !important;       /* Usa el 100% del ancho disponible */
+        background-color: white !important; /* Fondo blanco en el sidebar */
     }
 
-    /* Reducir los márgenes dentro del sidebar */
+    /* Reducir márgenes dentro del sidebar */
     .stSidebar .stVerticalBlock {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
 
-    /* Reducir los márgenes dentro de cada pestaña */
-    .stVerticalBlock {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    /* Reducir el espacio entre elementos */
-    .stVerticalBlock > div {
-        margin-bottom: 0px !important;
-    }
+    /* Ajustes boton */
     div.stButton > button {
         background-color: black !important;
         color: white !important;
         border-radius: 8px;
         border: 2px solid #1ED760;  /* Verde Spotify */
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         padding: 10px 20px;
     }
-    /* Efecto hover */
+    
+    /* Efecto hover boton */
     div.stButton > button:hover {
         background-color: #333333 !important;  /* Gris oscuro */
         color: #1ED760 !important;
-    }
-    /* Cambiar tamaño del texto en multiselect */
-    .stMultiSelect div {
-        font-size: 20px !important;
-        font-weight: bold !important;  /* Negrita */
+        border: 2px solid #1ED760;  /* Verde Spotify */
     }
 
-    /* Cambiar tamaño del texto en el slider */
-    .stSlider div {
-        font-size: 20px !important;
-        #font-weight: bold !important;
+    /* Contenedor del slider */
+    [data-testid="stSlider"] {
+        background-color: black !important; /* Fondo negro */
+        border: 2px solid #1ED760 !important; /* Borde verde */
+        border-radius: 8px !important; /* Bordes redondeados */
+        padding: 10px !important; /* Espaciado interno */
     }
 
-    /* Ajustar tamaño del número seleccionado en el slider */
-    .stSlider > span {
-        font-size: 15px !important;
+    /* Cambiar color del texto dentro del slider */
+    [data-testid="stSlider"] div {
+        color: white !important; /* Texto blanco */
+        font-size: 18px !important;
     }
+
+    /* Cambiar el color de la barra seleccionada del slider en Streamlit */
+    div[data-baseweb="slider"] > div > div > div:nth-child(2) {
+        background-color: #1ED760 !important; /* Verde Spotify */
+    }
+
+    /* Cambiar el color del círculo (thumb) del slider */
+    [data-baseweb="slider"] [role="slider"] {
+        background-color: #1ED760 !important; /* Verde Spotify */
+        border: 2px solid white !important; /* Borde blanco */
+    } 
+
     /* Cambiar fondo del expander */
     div[data-testid="stExpander"] {
         font-size: 20px !important;
@@ -245,6 +247,57 @@ st.markdown("""
         color: white !important;
         border: 2px solid #1ED760 !important; /* Verde Spotify */
         border-radius: 10px !important;
+    }
+    /* Cambiar color del texto cuando el expander está en hover */
+    div[data-testid="stExpander"]:hover {
+        color: #1ED760 !important; /* Verde Spotify */
+    }
+
+    /* Cambiar color del texto dentro del Multiselect */
+    [data-testid="stMultiSelect"] div {
+        color: black !important; /* Texto blanco */
+        font-size: 18px !important;
+    }
+
+    /* Cambiar el fondo y el texto del multiselect */
+    [data-testid="stMultiSelect"] > div > div > div {
+        background-color: black !important; /* Fondo negro */
+        color: white !important; /* Texto blanco */
+    }
+
+    /* Ícono del Multiselect */
+    [data-testid="stMultiSelect"] svg {
+        fill: #FFFFFF !important;  /* Hace que el icono sea blanco */
+        color: #FFFFFF !important; /* Asegura que el color del icono también sea blanco */
+    }
+
+    /* Cambiar el fondo de los valores seleccionados en el multiselect */
+    [data-testid="stMultiSelect"] [data-baseweb="tag"] {
+        background-color: #1ED760 !important; /* Fondo verde */
+        color: black !important; /* Texto negro */
+    }
+
+    /* Cambiar el color del texto dentro de los valores seleccionados */
+    [data-testid="stMultiSelect"] [data-baseweb="tag"] span {
+        color: black !important; /* Texto negro */
+    }
+
+    /* Cambiar el fondo y el texto del menú desplegable OK */ 
+    [data-baseweb="popover"] {
+        background-color: black !important; /* Fondo negro */
+        color: white !important; /* Texto blanco */
+    }
+
+    /* Cambiar el fondo y el texto de las opciones en el menú desplegable OK */ 
+    [data-baseweb="popover"] [role="option"] {
+        background-color: black !important; /* Fondo negro */
+        color: white !important; /* Texto blanco */
+    }
+
+    /* Cambiar el fondo y el texto de las opciones seleccionadas en el menú desplegable OK */
+    [data-baseweb="popover"] [role="option"][aria-selected="true"] {
+        background-color: #1ED760 !important; /* Fondo verde */
+        color: black !important; /* Texto negro */
     }
 
     </style>
