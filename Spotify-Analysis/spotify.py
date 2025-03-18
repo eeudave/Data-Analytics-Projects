@@ -109,11 +109,7 @@ def highlight_function(feature):
     if country_code == "-99":
         correct_code = obtener_codigo_pais(country_name)
         if correct_code:
-            country_code = correct_code
-
-    # Verificar si es el país seleccionado
-    is_selected = (country_code == codigo_pais) or (country_name == pais_seleccionado)        
-    
+            country_code = correct_code       
     return {
         "fillColor": "#1ED760" if feature["properties"]["iso_a2"] == codigo_pais else "#FFFFFF",
         "color": "black",
