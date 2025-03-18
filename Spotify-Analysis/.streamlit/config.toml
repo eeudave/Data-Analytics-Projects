@@ -1,0 +1,9 @@
+[theme]
+# Fondo principal de la aplicación - gris claro
+primaryColor = "#1ed760"  # Color primario para elementos interactivos Verde Spotify
+backgroundColor = "#ffffff"  # Fondo blanco
+secondaryBackgroundColor = "#ffffff"  # Fondo secundario (sidebars, etc.) - blanco
+textColor = "#121212"  # Color de texto principal - negro
+
+# Colores específicos para widgets y componentes
+font = "sans-serif"
