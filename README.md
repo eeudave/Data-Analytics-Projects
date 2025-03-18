@@ -17,20 +17,25 @@ Here you'll find a collection of projects I've completed.
 
 - **Live Demo**: 
   - [¡View the interactive Streamlit App Here!](https://data-analytics-spotify.streamlit.app)
+
 - **Data source**: 
   - **Kaggle**: [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
   - World's most popular songs on Spotify: Top 50 songs for each country is updated daily to provide the most up-to-date information on the popularity of songs in the world.
+
 - **Machine Learning**: 
   - Utilized the **K-Means clustering algorithm** to group songs based on their audio features.
   - Applied **Principal Component Analysis (PCA)** for dimensionality reduction, enabling effective visualization of song clusters.
+
 - **Tools**: 
   - **Python**: For data analysis and machine learning.
   - **Streamlit**: To create an interactive web application for visualizing the results.
   - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly, Folium, Json.
+
 - **Results**: 
   - Identified that some songs and artists are popular across multiple countries, indicating global trends.
   - Discovered that certain songs are popular only in specific regions, highlighting cultural preferences.
   - Found that musical characteristics such as **danceability** and **energy** are key drivers of song popularity.
+
 - **Achievements**: 
   - This project was selected as the **<span style="color: green; text-decoration: underline;">Best Project</span>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights. 
 
