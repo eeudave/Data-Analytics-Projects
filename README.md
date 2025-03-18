@@ -10,8 +10,8 @@ Here you'll find a collection of projects I've completed.
 
 ### 1. [Spotify-Analysis](Spotify-Analysis/) (Final Bootcamp Project)
 
-<img src="Spotify-Analysis\visualizations/preview_spotify.png" alt="Dashboard Preview" width="500"/>
-<img src="Spotify-Analysis\visualizations/preview_clusters.png" alt="Dashboard Preview" width="500"/>
+<img src="Spotify-Analysis\visualizations/preview_map.png" alt="Dashboard Preview" width="500"/>
+<img src="Spotify-Analysis\visualizations/preview_clust.png" alt="Dashboard Preview" width="500"/>
 
 - **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence.
 
