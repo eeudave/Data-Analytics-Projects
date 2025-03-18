@@ -13,9 +13,9 @@ Here you'll find a collection of projects I've completed.
 <img src="Spotify-Analysis\visualizations/preview_spotify.png" alt="Dashboard Preview" width="500"/>
 <img src="Spotify-Analysis\visualizations/preview_clusters.png" alt="Dashboard Preview" width="500"/>
 
-- **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and tempo.
+- **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence.
 
-- **¡Live Demo!**: 
+- **Live Demo**: 
   - [View the interactive Streamlit App Here](https://data-analytics-spotify.streamlit.app)
 - **Data source**: 
   - **Kaggle**: [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
