@@ -4,7 +4,7 @@ The most outstanding projects of the Data Analytics Bootcamp at NEOLAND.
 Hi! I'm Erik Eudave, a Data Analyst with experience in Python, Streamlit, R, SQL, PowerBI, Tableau and Machine Learning.
 Here you'll find a collection of projects I've completed.
 
-## Proyects
+## Projects
 
 ---
 
