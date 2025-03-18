@@ -1,7 +1,7 @@
 # Spotify Popularity Analysis
 
-<img src="visualizations/preview_spotify.png" alt="Dashboard Preview" width="600"/>
-<img src="visualizations/preview_clusters.png" alt="Dashboard Preview" width="600"/>
+<img src="visualizations/preview_map.png" alt="Dashboard Preview" width="600"/>
+<img src="visualizations/preview_clust.png" alt="Dashboard Preview" width="600"/>
 
 ### **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence.
 
