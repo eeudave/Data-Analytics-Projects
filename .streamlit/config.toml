@@ -4,5 +4,6 @@ primaryColor = "#1ed760"  # Color primario para elementos interactivos Verde Spo
 backgroundColor = "#ffffff"  # Fondo blanco
 secondaryBackgroundColor = "#ffffff"  # Fondo secundario (sidebars, etc.) - blanco
 textColor = "#121212"  # Color de texto principal - negro
+
 # Colores específicos para widgets y componentes
-font = "sans serif"
+font = "sans serif" 
