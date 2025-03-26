@@ -5,6 +5,8 @@
 
 ### **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence.
 
+---
+
 ### **Live Demo**: 
   - [¡View the interactive Streamlit App Here!](https://data-analytics-spotify.streamlit.app)
 
