@@ -1,5 +1,4 @@
 import subprocess
-
 # Obtener la lista de librerías desactualizadas
 outdated = subprocess.run(
     ["pip", "list", "--outdated", "--format=freeze"],
