@@ -16,13 +16,12 @@ Here you'll find a collection of projects I've completed.
 - **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence.
 
 - **Live Demo**: 
-  - [![¡View the interactive Streamlit App Here!](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://data-analytics-spotify.streamlit.app/)
-  - [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
 
+  - **¡View the interactive Streamlit App Here!**: [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
 
 - **Data source**: 
-  - **Kaggle**: [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
-  - **Kaggle**: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
+
+  - **Top Spotify Songs in 73 Countries (Daily Updated)**: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
 
   - World's most popular songs on Spotify: Top 50 songs for each country is updated daily to provide the most up-to-date information on the popularity of songs in the world.
 
@@ -67,8 +66,7 @@ Here you'll find a collection of projects I've completed.
 - **Tools**: Tableau: Dimensions, Measurements and Maps.
 - **Results**: Powerful visualizations that provide actionable insights for sales analysis, financial reporting, and operational performance tracking.
 
-### 📊 Mi Perfil de Tableau  
-[![Tableau Public](https://img.shields.io/badge/Tableau-Public-orange)](https://public.tableau.com/app/profile/erik.eudave/vizzes)
+#### 📊 My Tableau Profile: [![Tableau Public](https://img.shields.io/badge/Tableau-Public-orange)](https://public.tableau.com/app/profile/erik.eudave/vizzes)
 
 
 ---
