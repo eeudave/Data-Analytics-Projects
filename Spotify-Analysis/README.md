@@ -8,12 +8,11 @@
 ---
 
 ### **Live Demo**: 
-  - [¡View the interactive Streamlit App Here!](https://data-analytics-spotify.streamlit.app)
-  - [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
+  - **¡View the interactive Streamlit App Here!**: [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
 
 
 ### **Data source**: 
-  - **Kaggle**: [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
+  - **Top Spotify Songs in 73 Countries (Daily Updated)**: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
   - World's most popular songs on Spotify: Top 50 songs for each country is updated daily to provide the most up-to-date information on the popularity of songs in the world.
 
 ### **Machine Learning**: 
