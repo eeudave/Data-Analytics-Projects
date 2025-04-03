@@ -1,8 +1,8 @@
 # Tableau
 
-<img src="spotify/spotify.png" alt="Dashboard Preview" width="500"/>
-<img src="suministros/suministrosco.png" alt="Dashboard Preview" width="500"/>
-<img src="supertienda/supertienda.png" alt="Dashboard Preview" width="500"/>
+<img src="spotify/spotify.png" alt="Dashboard Preview" width="600"/>
+<img src="suministros/suministrosco.png" alt="Dashboard Preview" width="600"/>
+<img src="supertienda/supertienda.png" alt="Dashboard Preview" width="600"/>
 
 ### **Description**: Interactive dashboards developed in Tableau using advanced calculations and custom visualizations.
 ### **Tools**: Tableau: Dimensions, Measurements and Maps.
