@@ -66,7 +66,7 @@ Here you'll find a collection of projects I've completed.
 - **Tools**: Tableau: Dimensions, Measurements and Maps.
 - **Results**: Powerful visualizations that provide actionable insights for sales analysis, financial reporting, and operational performance tracking.
 
-#### 📊 My Tableau Profile: [![Tableau Public](https://img.shields.io/badge/Tableau-Public-orange)](https://public.tableau.com/app/profile/erik.eudave/vizzes)
+- **📊 My Tableau Profile**: [![Tableau Public](https://img.shields.io/badge/Tableau-Public-orange)](https://public.tableau.com/app/profile/erik.eudave/vizzes)
 
 
 ---
