@@ -9,6 +9,8 @@
 
 ### **Live Demo**: 
   - [¡View the interactive Streamlit App Here!](https://data-analytics-spotify.streamlit.app)
+  - [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
+
 
 ### **Data source**: 
   - **Kaggle**: [Top Spotify Songs in 73 Countries (Daily Updated)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
@@ -34,4 +36,5 @@
 #### **Data Cleanup Notebook (Generates spotify_clean.csv file)**: [Cleanup_Spotify.ipynb](notebooks/Cleanup_Spotify.ipynb)
 #### **World Map To Highlight Countries**: [custom.geo.json](https://geojson-maps.kyd.au/)
 #### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="15"/>](https://developer.spotify.com/documentation/design#using-our-logo)
+
 
