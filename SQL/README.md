@@ -1,7 +1,8 @@
 # SQL
 
 <p align="center">
-	<img src="sql.png" alt="Dashboard Preview" width="700"/>
+	<img src="mssqlserver.png" alt="Dashboard Preview" width="700"/>
+	<img src="dbeaver.png" alt="Dashboard Preview" width="700"/>
 	<img src="lucid.png" alt="Dashboard Preview" width="700"/>
 </p>
 
