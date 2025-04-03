@@ -1,9 +1,11 @@
-# Spotify Popularity Analysis
+# 🎵 Spotify Popularity Analysis  
 
-<img src="visualizations/preview_map.png" alt="Dashboard Preview" width="700"/>
-<img src="visualizations/preview_clust.png" alt="Dashboard Preview" width="700"/>
+<p align="center">
+  <img src="visualizations/preview_map.png" alt="Dashboard Preview" width="700"/>
+  <img src="visualizations/preview_clust.png" alt="Dashboard Preview" width="700"/>
+</p>
 
-### **Description**: An analysis exploring the relationship between the characteristics of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence.
+### **🔍 Description**: An analysis exploring the relationship between **audio characteristics** and the **popularity** of the most popular songs across 73 countries. The project aims to identify global and regional trends in music preferences based on audio features such as danceability, energy, and valence and use **clustering techniques** to group songs with similar attributes.
 
 ---
 
@@ -46,12 +48,9 @@ This project was recognized as the **<span style="color: green; text-decoration:
 ---
 
 ## 📂 Additional Resources  
-📌 **Data Cleanup Notebook** _(Generates `spotify_clean.csv` file)_:  
-[📄 Cleanup_Spotify.ipynb](notebooks/Cleanup_Spotify.ipynb)  
+📌 **Data Cleanup Notebook** _(Generates `spotify_clean.csv` file)_: [📄 Cleanup_Spotify.ipynb](notebooks/Cleanup_Spotify.ipynb)  
 
-📌 **World Map for Country Highlighting**:  
-[🗺️ custom.geo.json](https://geojson-maps.kyd.au/)  
+📌 **World Map for Country Highlighting**: [🗺️ custom.geo.json](https://geojson-maps.kyd.au/)  
 
-📌 **Spotify Logo and Icon**:  
-[<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="20"/>](https://developer.spotify.com/documentation/design#using-our-logo)  
+📌 **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="20"/>](https://developer.spotify.com/documentation/design#using-our-logo)  
 
