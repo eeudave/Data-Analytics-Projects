@@ -8,13 +8,13 @@
 ---
 
 ## 🚀 Live Demo  
-Experience the interactive web application:  
+- **Experience the interactive web application**:  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
 
 ---
 
 ## 📊 Data Source  
-- **Top Spotify Songs in 73 Countries (Daily Updated)**  
+- **Top Spotify Songs in 73 Countries (Daily Updated)**:  
   [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)  
 - The dataset provides **daily updates** on the top 50 songs in each country, offering insights into **global and regional music trends**.
 
@@ -53,5 +53,5 @@ This project was recognized as the **<span style="color: green; text-decoration:
 [🗺️ custom.geo.json](https://geojson-maps.kyd.au/)  
 
 📌 **Spotify Logo and Icon**:  
-[![Spotify Logo](visualizations/Spotify_Primary_Logo_RGB_Green.png)](https://developer.spotify.com/documentation/design#using-our-logo)  
+[<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="20"/>](https://developer.spotify.com/documentation/design#using-our-logo)  
 
