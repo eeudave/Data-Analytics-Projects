@@ -7,33 +7,51 @@
 
 ---
 
-### **Live Demo**: 
-  - **¡View the interactive Streamlit App Here!**: [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
+## 🚀 Live Demo  
+Experience the interactive web application:  
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-analytics-spotify.streamlit.app)
 
+---
 
-### **Data source**: 
-  - **Top Spotify Songs in 73 Countries (Daily Updated)**: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
-  - World's most popular songs on Spotify: Top 50 songs for each country is updated daily to provide the most up-to-date information on the popularity of songs in the world.
+## 📊 Data Source  
+- **Top Spotify Songs in 73 Countries (Daily Updated)**  
+  [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)  
+- The dataset provides **daily updates** on the top 50 songs in each country, offering insights into **global and regional music trends**.
 
-### **Machine Learning**: 
-  - Utilized the **K-Means clustering algorithm** to group songs based on their audio features.
-  - Applied **Principal Component Analysis (PCA)** for dimensionality reduction, enabling effective visualization of song clusters.
+---
 
-### **Tools**: 
-  - **Python**: For data analysis and machine learning.
-  - **Streamlit**: To create an interactive web application for visualizing the results.
-  - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly, Folium, Json.
+## 🤖 Machine Learning  
+- Implemented **K-Means clustering** to group songs based on their audio features.  
+- Applied **Principal Component Analysis (PCA)** to reduce dimensionality and enable **effective visualization** of song clusters.
 
-### **Results**: 
-  - Identified that some songs and artists are popular across multiple countries, indicating global trends.
-  - Discovered that certain songs are popular only in specific regions, highlighting cultural preferences.
-  - Found that musical characteristics such as **danceability** and **energy** are key drivers of song popularity.
+---
 
-### **Achievements**: 
-  - This project was selected as the **<span style="color: green; text-decoration: underline;">Best Project</span>** within the Data Analytics Bootcamp, recognized for its innovative approach and impactful insights.
+## 🛠️ Tools & Technologies  
+- **Python**: Used for data preprocessing, analysis, and machine learning.  
+- **Streamlit**: Built an interactive web app for data visualization.  
+- **Key Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly, Folium, JSON.  
 
-#### **Data Cleanup Notebook (Generates spotify_clean.csv file)**: [Cleanup_Spotify.ipynb](notebooks/Cleanup_Spotify.ipynb)
-#### **World Map To Highlight Countries**: [custom.geo.json](https://geojson-maps.kyd.au/)
-#### **Spotify Logo and Icon**: [<img src="visualizations/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify Logo" width="15"/>](https://developer.spotify.com/documentation/design#using-our-logo)
+---
 
+## 📈 Key Results  
+✔ **Identified global trends**: Some songs and artists dominate multiple countries.  
+✔ **Discovered cultural preferences**: Certain songs are uniquely popular in specific regions.  
+✔ **Analyzed musical characteristics**: Features like **danceability** and **energy** drive song popularity.  
+
+---
+
+## 🏆 Achievements  
+This project was recognized as the **<span style="color: green; text-decoration: underline;">Best Project</span>** in the Data Analytics Bootcamp for its **innovative approach and data-driven insights**.  
+
+---
+
+## 📂 Additional Resources  
+📌 **Data Cleanup Notebook** _(Generates `spotify_clean.csv` file)_:  
+[📄 Cleanup_Spotify.ipynb](notebooks/Cleanup_Spotify.ipynb)  
+
+📌 **World Map for Country Highlighting**:  
+[🗺️ custom.geo.json](https://geojson-maps.kyd.au/)  
+
+📌 **Spotify Logo and Icon**:  
+[![Spotify Logo](visualizations/Spotify_Primary_Logo_RGB_Green.png)](https://developer.spotify.com/documentation/design#using-our-logo)  
 
