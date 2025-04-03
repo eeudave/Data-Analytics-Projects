@@ -110,8 +110,9 @@ Here you'll find a collection of projects I've completed.
 
 ### 7. [SQL](SQL/)
 
-<img src="SQL/sql.png" alt="Dashboard Preview" width="700"/>
-<img src="SQL/lucid.png" alt="Dashboard Preview" width="500"/>
+<img src="mssqlserver.png" alt="Dashboard Preview" width="500"/>
+<img src="dbeaver.png" alt="Dashboard Preview" width="500"/>
+<img src="lucid.png" alt="Dashboard Preview" width="500"/>
 
 - **Description**: SQL exercises designed to improve query writing and database management skills.
 - **Tools**: DBeaver, Microsoft SQL Server Management Studio (SSMS), Lucid (ER Diagrams).
