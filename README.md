@@ -21,8 +21,7 @@ Here you'll find a collection of projects I've completed.
 
 - **Data source**: 
 
-  - **Top Spotify Songs in 73 Countries (Daily Updated)**: [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
-
+  - **Top Spotify Songs in 73 Countries (Daily Updated)**: [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)
   - World's most popular songs on Spotify: Top 50 songs for each country is updated daily to provide the most up-to-date information on the popularity of songs in the world.
 
 - **Machine Learning**: 
