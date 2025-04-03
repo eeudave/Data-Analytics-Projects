@@ -55,10 +55,6 @@ Here you'll find a collection of projects I've completed.
 
 ### 3. [Tableau](Tableau/)
 
-<div style="display: flex;">
-  <img src="Tableau/employees/employees.png" alt="Dashboard Preview" width="500"/>
-  <img src="Tableau/e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
-</div>
 <img src="Tableau/spotify/spotify.png" alt="Dashboard Preview" width="500"/>
 <img src="Tableau/suministros/suministrosco.png" alt="Dashboard Preview" width="500"/>
 <img src="Tableau/supertienda/supertienda.png" alt="Dashboard Preview" width="500"/>
