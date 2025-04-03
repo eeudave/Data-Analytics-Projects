@@ -6,7 +6,6 @@
 	<img src="supertienda/supertienda.png" alt="Dashboard Preview" width="700"/>
 </p>
 
-
 ### **Description**: Interactive dashboards developed in Tableau using advanced calculations and custom visualizations.
 ### **Tools**: Tableau: Dimensions, Measurements and Maps.
 ### **Results**: Powerful visualizations that provide actionable insights for sales analysis, financial reporting, and operational performance tracking.
