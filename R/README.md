@@ -1,7 +1,7 @@
 # R
 
 <p align="center">
-	<img src="R/collageR.png" alt="Dashboard Preview" width="700"/>
+	<img src="collageR.png" alt="Dashboard Preview" width="700"/>
 </p>
 
 ### **Description**: R programming exercises focusing on data manipulation, visualization, and statistical analysis.
