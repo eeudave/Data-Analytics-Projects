@@ -1,8 +1,8 @@
 # SQL
 
 <p align="center">
-	<img src="SQL/sql.png" alt="Dashboard Preview" width="700"/>
-	<img src="SQL/lucid.png" alt="Dashboard Preview" width="700"/>
+	<img src="sql.png" alt="Dashboard Preview" width="700"/>
+	<img src="lucid.png" alt="Dashboard Preview" width="700"/>
 </p>
 
 ### **Description**: SQL exercises designed to improve query writing and database management skills.
