@@ -1,7 +1,7 @@
 # Python
 
 <p align="center">
-	<img src="collagePython.png" alt="Dashboard Preview" width="500"/>
+	<img src="collagePython.png" alt="Dashboard Preview" width="700"/>
 </p>
 
 ### **Description**: **Description**: A collection of Python coding exercises focused on data manipulation, algorithm development, and data visualization.
