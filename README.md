@@ -59,10 +59,18 @@ Here you'll find a collection of projects I've completed.
   <img src="Tableau/employees/employees.png" alt="Dashboard Preview" width="500"/>
   <img src="Tableau/e-commerce/ecommerce.png" alt="Dashboard Preview" width="200"/>
 </div>
+<img src="Tableau/spotify/spotify.png" alt="Dashboard Preview" width="500"/>
+<img src="Tableau/suministros/suministrosco.png" alt="Dashboard Preview" width="500"/>
+<img src="Tableau/supertienda/supertienda.png" alt="Dashboard Preview" width="500"/>
 
 - **Description**: Interactive dashboards developed in Tableau using advanced calculations and custom visualizations.
 - **Tools**: Tableau: Dimensions, Measurements and Maps.
 - **Results**: Powerful visualizations that provide actionable insights for sales analysis, financial reporting, and operational performance tracking.
+
+## 📊 Mi Perfil de Tableau
+Explora mis visualizaciones de datos en Tableau Public:  
+[![Tableau](https://img.shields.io/badge/Tableau-Public-blue?style=flat&logo=tableau)](https://public.tableau.com/app/profile/erik.eudave/vizzes)
+
 
 ---
 
