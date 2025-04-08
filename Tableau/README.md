@@ -3,7 +3,7 @@
 <p align="center">
 	<img src="spotify/spotify.png" alt="Dashboard Preview" width="700"/>
 	<img src="suministros/suministrosco.png" alt="Dashboard Preview" width="700"/>
-	<img src="supertienda/cheese.png" alt="Dashboard Preview" width="700"/>
+	<img src="cheese/cheese.png" alt="Dashboard Preview" width="700"/>
 </p>
 
 ### **Description**: Interactive dashboards developed in Tableau using advanced calculations and custom visualizations.
