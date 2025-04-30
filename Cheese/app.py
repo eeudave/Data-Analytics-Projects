@@ -133,11 +133,11 @@ with st.container():
             st.plotly_chart(fig, use_container_width=True)
           
 # Visualizaciones 1
-with st.container():
+with st.container(border=True, key="figura1"):
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True, key="figura1"):
+        with st.container(border=True, key="figura2"):
             st.subheader("🧀 Quesos por País y Tipo de Leche")
             # Paso 1: Calcular el total de quesos por país para determinar el orden
             total_by_country = filtered_df.groupby('country').size().reset_index(name='total_count') 
