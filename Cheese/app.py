@@ -10,18 +10,21 @@ import plotly.express as px
 from PIL import Image
 from streamlit_lottie import st_lottie
 
-# Configuracion de la pagina
-st.set_page_config(page_title="Cheese", page_icon="🧀", layout="wide") 
-
-#funcion carga CSS
-def css_loader(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
 # Para obtener la ruta absoluta de los archivos
 base_dir = os.path.dirname(os.path.abspath(__file__))  
 
-# Obtener la ruta absoluta del archivo
+# Configuracion de la pagina
+st.set_page_config(page_title="Cheese", page_icon="🧀", layout="wide") 
+
+# Obtener la ruta absoluta del archivo css
+css_path = os.path.join(base_dir, "style", "main.css")
+
+#funcion carga CSS
+def css_loader():
+    with open(css_path) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+# Obtener la ruta absoluta del archivo csv
 data_path = os.path.join(base_dir, "data", "cheese_clean.csv")
 
 #funcion carga CSV
@@ -40,7 +43,7 @@ def lottie_loader(url):
     return r.json()
 
 #carga css
-css_loader("style/main.css")
+css_loader()
 
 #carga archivo
 cheese_df = csv_loader()
