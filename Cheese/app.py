@@ -40,7 +40,7 @@ def lottie_loader(url):
     return r.json()
 
 #carga css
-#css_loader("style/main.css")
+css_loader("style/main.css")
 
 #carga archivo
 cheese_df = csv_loader()

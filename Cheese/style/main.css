@@ -1,3 +1,28 @@
+
+/* main.css */
+
+body {
+  background-color: #082e6e;
+  color: #fc8c1c;
+  font-family: sans-serif;
+}
+
+a {
+  color: #f5eec6;
+}
+
+.css-1v0mbdj, .css-1dp5vir {  /* Sidebar and widget areas */
+  background-color: #f5eec6 !important;
+  color: #fc8c1c !important;
+}
+
+.css-ffhzg2, .stButton>button {
+  background-color: #7792E3 !important;
+  color: white !important;
+}
+
+
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
