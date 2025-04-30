@@ -123,6 +123,10 @@ div[data-testid="stElementContainer"] {
 }
 
 /* Fondo naranja para st.text_input */
+[data-testid="stTextInput"] {
+  background-color: #fc8c1c !important;
+}
+
 [data-testid="stTextInput"] input {
   background-color: #fc8c1c !important;
   color: white !important;
