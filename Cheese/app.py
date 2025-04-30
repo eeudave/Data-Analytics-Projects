@@ -26,7 +26,7 @@ data_path = os.path.join(base_dir, "data", "cheese_clean.csv")
 
 #funcion carga CSV
 @st.cache_data
-def csv_loader(path: str) :
+def csv_loader() :
     data = pd.read_csv(data_path, delimiter = ",")
     #limpia nulos
     data['cheese'] = data['cheese'].fillna("Unknown")
