@@ -55,7 +55,7 @@ label[data-testid="stWidgetLabel"] p {
 
 /* Fondo transparente para todos los contenedores de elementos */
 div[data-testid="stElementContainer"] {
-  background-color: transparent !important;
+  background-color: #082e6e !important;
 }
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
