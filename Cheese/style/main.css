@@ -49,8 +49,8 @@ section[data-testid="stSidebar"] {
 /* Estilo personalizado para el contenedor con key="figura" */
 .st-key-figura1 {
   background-color: #082e6e;
-  border: 2px solid #fc8c1c;
-  border-radius: 10px;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
   padding: 1rem;
   color: #fc8c1c;
 }
@@ -59,8 +59,8 @@ section[data-testid="stSidebar"] {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 4rem;
-  margin: 4rem 0;
+  padding: 1rem;
+  margin: 1rem 0;
   color: #fc8c1c;
   font-size: 1.5rem;
   text-align: center;
