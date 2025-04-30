@@ -42,10 +42,17 @@ section[data-testid="stSidebar"] {
 
 .gif-container {
   background-color: #082e6e;
-  padding: 16px;
+  padding: 1px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.gif-container img {
+  width: 80%;      /* o un porcentaje como 80% */
+  height: auto;      /* mantiene la proporción */
+  border-radius: 8px;
 }
 
 .stSelectbox div[data-baseweb="select"] > div:first-child {
