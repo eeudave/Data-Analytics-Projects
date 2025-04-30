@@ -57,14 +57,14 @@ section[data-testid="stSidebar"] {
 
 .st-key-figura2 {
   background-color: #082e6e;
-  border: 2px solid #fc8c1c;
+  border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
+  padding: 4rem;
+  margin: 4rem 0;
   color: #fc8c1c;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-align: center;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
 }
 
 /* Cambia el texto del selectbox */
