@@ -46,6 +46,13 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
+/* Cambia el texto del selectbox */
+label[data-testid="stSelectboxLabel"] {
+  color: #fc8c1c !important;
+  font-weight: bold;
+}
+
+
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
