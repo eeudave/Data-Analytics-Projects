@@ -119,9 +119,9 @@ div[data-testid="stElementContainer"] {
 /* Contenedor externo del input */
 div[data-baseweb="base-input"] {
   background-color: #082e6e !important;  /* Azul */
-  padding: 8px;
+  padding: 2px;
   border-radius: 12px;
-  border: 2px solid #fc8c1c !important;  /* Borde naranja */
+  border: 3px solid #fc8c1c !important;  /* Borde naranja */
 }
 
 /* Campo input (editable) */
