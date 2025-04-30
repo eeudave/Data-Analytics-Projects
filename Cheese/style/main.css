@@ -150,7 +150,7 @@ div[data-baseweb="base-input"] input {
 }
 
 /* Cambiar color cuando el mouse está sobre el expander */
-[data-testid="stExpander"]:hover {
+[data-testid="stExpander"]:hover p {
   color: #082e6e !important;
   font-weight: bold;
 }
