@@ -137,7 +137,7 @@ with st.container():
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True, key="figura"):
+        with st.container(border=True, key="figura1"):
             st.subheader("🧀 Quesos por País y Tipo de Leche")
             # Paso 1: Calcular el total de quesos por país para determinar el orden
             total_by_country = filtered_df.groupby('country').size().reset_index(name='total_count') 
@@ -191,7 +191,7 @@ with st.container():
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True, key="figura"):
+        with st.container(border=True):
             st.subheader("🎨 Quesos por Color y Familia")
             fig = px.sunburst(
                 filtered_df, 
@@ -211,7 +211,7 @@ with st.container():
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True, key="figura"):
+        with st.container(border=True):
             st.subheader("👅 Relación Sabor Vs Textura")
             fig = px.scatter(
                 filtered_df, 
@@ -235,7 +235,7 @@ with st.container():
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True, key="figura"):
+        with st.container(border=True):
             st.subheader("👃 Principales Aromas")
             text = " ".join(filtered_df['aroma'].dropna())
             wordcloud = WordCloud(
