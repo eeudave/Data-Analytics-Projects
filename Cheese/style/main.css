@@ -122,9 +122,16 @@ div[data-baseweb="base-input"] {
   padding: 8px;
   border-radius: 12px;
   border: 2px solid #fc8c1c !important;  /* Borde naranja */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* Campo input (editable) */
+div[data-baseweb="base-input"] input {
+  background-color: #082e6e !important;  /* Azul */
+  color: #fc8c1c !important;             /* Texto naranja */
+  border: none !important;
+  outline: none !important;
+  font-weight: bold;
+}
 
 /* Fondo naranja para st.expander */
 [data-testid="stExpander"] {
