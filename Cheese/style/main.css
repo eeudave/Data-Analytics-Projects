@@ -46,6 +46,15 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
+/* Estilo personalizado para el contenedor con key="figura" */
+.st-key-figura {
+  background-color: #082e6e;
+  border: 2px solid #fc8c1c;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fc8c1c;
+}
+
 /* Cambia el texto del selectbox */
 label[data-testid="stWidgetLabel"] p {
   color: #fc8c1c !important;
