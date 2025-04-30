@@ -122,6 +122,29 @@ div[data-testid="stElementContainer"] {
   justify-content: center;
 }
 
+/* Fondo naranja para st.text_input */
+[data-testid="stTextInput"] input {
+  background-color: #fc8c1c !important;
+  color: white !important;
+  border: 1px solid #2d408d;
+  font-weight: bold;
+}
+
+/* Fondo naranja para st.expander */
+[data-testid="stExpander"] {
+  background-color: #fc8c1c !important;
+  color: white !important;
+  border: 1px solid #2d408d;
+  border-radius: 8px;
+}
+
+/* Título del expander */
+[data-testid="stExpander"] > summary {
+  background-color: #fc8c1c !important;
+  color: white !important;
+  font-weight: bold;
+}
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
