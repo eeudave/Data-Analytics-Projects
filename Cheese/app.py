@@ -17,10 +17,14 @@ def css_loader(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+
+# Obtener la ruta absoluta del archivo
+data_path = os.path.join(base_dir, "data", "cheese_clean.csv")
+
 #funcion carga CSV
 @st.cache_data
 def csv_loader(path: str) :
-    data = pd.read_csv(path, delimiter = ",")
+    data = pd.read_csv(data_path, delimiter = ",")
     #limpia nulos
     data['cheese'] = data['cheese'].fillna("Unknown")
     return (data)
@@ -36,7 +40,7 @@ def lottie_loader(url):
 #css_loader("style/main.css")
 
 #carga archivo
-cheese_df = csv_loader("data/cheese_clean.csv")
+cheese_df = csv_loader()
 
 email_address ="erik.eudave@gmail.com"
 
