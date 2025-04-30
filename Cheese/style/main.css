@@ -47,13 +47,25 @@ section[data-testid="stSidebar"] {
 }
 
 /* Estilo personalizado para el contenedor con key="figura" */
+
+.st-key-figura0 {
+  background-color: #082e6e;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #fc8c1c;
+  text-align: center;
+  margin: 0;
+  box-shadow: none;     /* Quita sombra si no la deseas */
+}
+
 .st-key-figura1 {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
+  padding: 1rem;
   color: #fc8c1c;
   text-align: center;
-  padding: 0;           /* o lo que necesites */
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
 }
@@ -62,9 +74,31 @@ section[data-testid="stSidebar"] {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
+  padding: 1rem;
   color: #fc8c1c;
   text-align: center;
-  padding: 0;           /* o lo que necesites */
+  margin: 0;
+  box-shadow: none;     /* Quita sombra si no la deseas */
+}
+
+.st-key-figura3 {
+  background-color: #082e6e;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #fc8c1c;
+  text-align: center;
+  margin: 0;
+  box-shadow: none;     /* Quita sombra si no la deseas */
+}
+
+.st-key-figura4 {
+  background-color: #082e6e;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #fc8c1c;
+  text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
 }

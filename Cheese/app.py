@@ -99,7 +99,7 @@ with st.container():
     cheese_counts.columns = ['country', 'cheese_count']
     # Acceder a la primera (y única) columna de la lista
     with columns[0]:  # 👈 Usar el primer elemento de la lista
-        with st.container(border=True):
+        with st.container(border=True, key="figura0"):
             st.subheader("🌍 Mapa de Quesos por País")
             # Crear el mapa
             fig = px.choropleth(cheese_counts, 
@@ -211,7 +211,7 @@ with st.container():
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True):
+        with st.container(border=True, key="figura3"):
             st.subheader("👅 Relación Sabor Vs Textura")
             fig = px.scatter(
                 filtered_df, 
@@ -235,7 +235,7 @@ with st.container():
     #st.write("---")
     columns = st.columns(1)
     with columns[0]:
-        with st.container(border=True):
+        with st.container(border=True, key="figura4"):
             st.subheader("👃 Principales Aromas")
             text = " ".join(filtered_df['aroma'].dropna())
             wordcloud = WordCloud(
