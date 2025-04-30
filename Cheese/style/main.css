@@ -127,8 +127,9 @@ div[data-testid="stElementContainer"] {
   background-color: #082e6e !important;
 }
 
-[data-testid="stTextInput"] input {
-  background-color: #fc8c1c !important;
+/* Cambia el fondo del input de texto a azul */
+div[data-baseweb="base-input"] input {
+  background-color: #082e6e !important;
   color: white !important;
   border: 1px solid #2d408d !important;
   font-weight: bold;
