@@ -46,11 +46,6 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
-.stElementContainer > div[data-baseweb="select"] > div:first-child {
-  background-color: #082e6e !important;  /* Fondo */
-  border: 1px solid #fc8c1c !important;  /* Borde */
-}
-
 /* Cambia el texto del selectbox */
 label[data-testid="stWidgetLabel"] p {
   color: #fc8c1c !important;
@@ -61,7 +56,7 @@ label[data-testid="stWidgetLabel"] p {
 /* Fondo transparente para todos los contenedores de elementos */
 div[data-testid="stElementContainer"] {
   background-color: #082e6e !important;  /* Fondo */
-  border: 1px solid #fc8c1c !important;  /* Borde */
+  /* border: 1px solid #fc8c1c !important;  Borde */
 }
 
 .lottie-container {
