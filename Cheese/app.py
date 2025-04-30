@@ -86,7 +86,7 @@ with st.container():
     
     with left_column:
         st.markdown('<div class="gif-container">', unsafe_allow_html=True)
-        st.image("QuesoAzul.gif", use_container_width=True)
+        st.image(gif_path, use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
     
     with right_column:
