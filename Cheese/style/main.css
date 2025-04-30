@@ -50,6 +50,8 @@ section[data-testid="stSidebar"] {
 .st-key-figura1 {
   background-color: #082e6e;
   border: 2px solid #fc8c1c;
+  border-radius: 10px;
+  padding: 1rem;
   color: #fc8c1c;
 }
 
