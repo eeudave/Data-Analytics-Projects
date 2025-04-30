@@ -58,8 +58,7 @@ gif_path = os.path.join(base_dir, "images", "QuesoAzul.gif")
 
 # Sidebar (filtros)
 with st.sidebar:
-    st.header("Filtros")
-
+    #st.header("Filtros")
     # Primero contamos cuántos quesos hay por país
     country_counts = cheese_df['country'].value_counts().reset_index()
     country_counts.columns = ['country', 'count']
@@ -205,9 +204,10 @@ with st.container():
                 height=500
             )
             fig.update_layout(
-                paper_bgcolor="#082e6e",   # Fondo de la figura
-                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
-                font=dict(color="#fc8c1c") # Color del texto
+                paper_bgcolor="#082e6e",
+                plot_bgcolor="#082e6e",
+                font=dict(color="#fc8c1c"),
+                margin=dict(l=0, r=0, t=0, b=0)  # Reduce márgenes
             )
             st.plotly_chart(fig, use_container_width=True)
             
