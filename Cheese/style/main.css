@@ -124,17 +124,7 @@ div[data-testid="stElementContainer"] {
   justify-content: center;
 }
 
-/* Fondo naranja para st.text_input */
-[data-testid="stTextInput"] {
-  background-color: #082e6e !important;
-}
 
-[data-testid="stTextInput"] input {
-  background-color: #fc8c1c !important;
-  color: white !important;
-  border: 0px solid #2d408d !important;
-  font-weight: bold;
-}
 
 /* Contenedor externo del input */
 div[data-baseweb="base-input"] {
@@ -152,14 +142,6 @@ div[data-baseweb="base-input"] input {
   border: none !important;
   outline: none !important;
   font-weight: bold;
-}
-
-input[type="text"] {
-  background-color: #082e6e !important; /* Azul */
-  color: #fc8c1c !important;           /* Naranja */
-  border: 2px solid #fc8c1c !important;
-  border-radius: 5px;
-  padding: 8px;
 }
 
 /* Fondo naranja para st.expander */
