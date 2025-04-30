@@ -53,6 +53,7 @@ section[data-testid="stSidebar"] {
   border-radius: 12px;
   padding: 1rem;
   color: #fc8c1c;
+  text-align: center;
 }
 
 .st-key-figura2 {
@@ -62,7 +63,6 @@ section[data-testid="stSidebar"] {
   padding: 1rem;
   margin: 1rem 0;
   color: #fc8c1c;
-  font-size: 1.5rem;
   text-align: center;
 }
 
