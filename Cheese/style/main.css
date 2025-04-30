@@ -64,7 +64,6 @@ section[data-testid="stSidebar"] {
   color: #fc8c1c;
   font-size: 1.5rem;
   text-align: center;
-  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
 }
 
 /* Cambia el texto del selectbox */
