@@ -18,6 +18,8 @@ def css_loader(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+# Para obtener la ruta absoluta de los archivos
+base_dir = os.path.dirname(os.path.abspath(__file__))  
 
 # Obtener la ruta absoluta del archivo
 data_path = os.path.join(base_dir, "data", "cheese_clean.csv")
