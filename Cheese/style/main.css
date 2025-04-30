@@ -58,6 +58,12 @@ div[data-testid="stElementContainer"] {
   background-color: #082e6e !important;
 }
 
+/* Style columns */
+[data-testid="column"] {
+  background-color: #082e6e !important;  /* Fondo */
+  border: 1px solid #fc8c1c !important;  /* Borde */
+} 
+
 /* Style containers */
 [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
   background-color: #082e6e !important;  /* Fondo */
