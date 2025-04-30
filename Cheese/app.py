@@ -228,9 +228,16 @@ with st.container():
                 height=500
             )
             fig.update_layout(
+                xaxis_title="Textura",
+                yaxis_title="Sabor",
+                legend_title="Tipo de leche",
                 paper_bgcolor="#082e6e",   # Fondo de la figura
                 plot_bgcolor="#082e6e",    # Fondo del área del gráfico
-                font=dict(color="#fc8c1c") # Color del texto
+                font=dict(color="#fc8c1c"), # Color del texto
+                legend=dict(
+                    font=dict(color="#f5eec6"),
+                    title_font=dict(color="#fc8c1c")
+                )
             )
             fig.update_xaxes(tickangle=45)
             st.plotly_chart(fig, use_container_width=True)
