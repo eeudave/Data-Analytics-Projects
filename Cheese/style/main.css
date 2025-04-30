@@ -117,7 +117,9 @@ div[data-testid="stElementContainer"] {
 }
 
 .lottie-container {
-  background-color: #082e6e; /* tu color de fondo deseado */
+  background-color: #082e6e;
+  padding: 0px;
+  border-radius: 12px;
   display: flex;
   justify-content: center;
 }
@@ -139,7 +141,7 @@ div[data-testid="stElementContainer"] {
   background-color: #fc8c1c !important;
   color: white !important;
   border: 0px solid #2d408d;
-  border-radius: 8px;
+  border-radius: 12px;
   font-weight: bold;
 }
 
