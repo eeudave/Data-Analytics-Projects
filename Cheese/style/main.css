@@ -1,9 +1,17 @@
 
 /* main.css */
 
-/* Fondo y texto general */
-html, body, .main {
-  background-color: #082e6e;
+/* Oculta el fondo del header */
+.stApp > header {
+  background-color: transparent;
+}
+
+/* Fondo general con animación sutil */
+.stApp {
+  background: linear-gradient(45deg, #082e6e 10%, #0E1117 45%, #0E1117 55%, #082e6e 90%);
+  animation: backgroundShift 20s ease infinite;
+  background-size: 200% 200%;
+  background-attachment: fixed;
   color: #fc8c1c;
   font-family: sans-serif;
 }
@@ -33,6 +41,19 @@ section[data-testid="stSidebar"] {
 .stButton > button:hover {
   background-color: #45a049 !important;
   color: white !important;
+}
+
+/* Animación de fondo */
+@keyframes backgroundShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 
