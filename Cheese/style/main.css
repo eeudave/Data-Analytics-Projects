@@ -113,7 +113,7 @@ label[data-testid="stWidgetLabel"] p {
 /* Fondo transparente para todos los contenedores de elementos */
 div[data-testid="stElementContainer"] {
   background-color: #082e6e !important;  /* Fondo */
-  border: 1px solid #fc8c1c !important;  /* Borde */
+  border: 0px solid #fc8c1c !important;  /* Borde */
 }
 
 .lottie-container {
