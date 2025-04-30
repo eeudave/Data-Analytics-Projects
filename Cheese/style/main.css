@@ -63,6 +63,14 @@ div[data-testid="stElementContainer"] {
   background-color: #082e6e !important;
 }
 
+.lottie-container {
+  background-color: #082e6e; /* tu color de fondo deseado */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {

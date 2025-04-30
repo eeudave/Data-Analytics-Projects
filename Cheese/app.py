@@ -84,7 +84,10 @@ if selected_milk != "Todos":
 with st.container():
     left_column, right_column= st.columns([.2,.8], gap="small", vertical_alignment="center", border=False)
     with left_column:
+        # Lottie animación dentro del contenedor
+        st.markdown('<div class="lottie-container">', unsafe_allow_html=True)
         st_lottie(lottie_loader(lottie_file), height=100, key="lottie_1")
+        st.markdown('</div>', unsafe_allow_html=True)
     with right_column:
         st.title("Cheese: Quesos del Mundo!")
  # Mapa
