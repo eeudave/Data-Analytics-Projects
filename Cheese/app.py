@@ -183,7 +183,8 @@ with st.container():
                 legend=dict(
                     font=dict(color="#f5eec6"),
                     title_font=dict(color="#fc8c1c")
-                )
+                ),
+                margin=dict(l=0, r=0, t=0, b=0)  # Reduce márgenes
             )
             fig.update_xaxes(tickangle=45)
 
@@ -237,7 +238,8 @@ with st.container():
                 legend=dict(
                     font=dict(color="#f5eec6"),
                     title_font=dict(color="#fc8c1c")
-                )
+                ),
+                margin=dict(l=0, r=0, t=0, b=0)  # Reduce márgenes
             )
             fig.update_xaxes(tickangle=45)
             st.plotly_chart(fig, use_container_width=True)
