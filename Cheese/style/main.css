@@ -136,6 +136,14 @@ div[data-testid="stElementContainer"] {
   font-weight: bold;
 }
 
+input[type="text"] {
+  background-color: #082e6e !important; /* Azul */
+  color: #fc8c1c !important;           /* Naranja */
+  border: 2px solid #fc8c1c !important;
+  border-radius: 5px;
+  padding: 8px;
+}
+
 /* Fondo naranja para st.expander */
 [data-testid="stExpander"] {
   background-color: #fc8c1c !important;
