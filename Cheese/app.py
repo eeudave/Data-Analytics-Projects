@@ -86,7 +86,7 @@ with st.container():
     
     with left_column:
         st.markdown('<div class="gif-container">', unsafe_allow_html=True)
-        st.image(gif_path, use_column_width=True)  # Asegúrate de que el archivo esté en la carpeta raíz o especifica la ruta
+        st.image("QuesoAzul.gif", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
     
     with right_column:
