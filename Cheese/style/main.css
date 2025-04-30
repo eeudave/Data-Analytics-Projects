@@ -24,6 +24,11 @@ section[data-testid="stSidebar"] {
   color: #fc8c1c !important;
 }
 
+/* Eliminar espacio superior al inicio de la app */
+.block-container {
+  padding-top: 0rem !important;  /* o 0 si quieres eliminarlo por completo */
+}
+
 /* Botones */
 .stButton > button {
   background-color: #fc8c1c !important;
