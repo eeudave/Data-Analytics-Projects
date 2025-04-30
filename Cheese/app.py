@@ -173,7 +173,10 @@ with st.container():
             fig.update_layout(
                 xaxis_title="País",
                 yaxis_title="Número de quesos",
-                legend_title="Tipo de leche"
+                legend_title="Tipo de leche",
+                paper_bgcolor="#082e6e",   # Fondo de la figura
+                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                font=dict(color="#fc8c1c") # Color del texto
             )
             fig.update_xaxes(tickangle=45)
 
@@ -193,6 +196,11 @@ with st.container():
                 color_discrete_sequence=px.colors.sequential.YlOrBr_r,
                 height=500
             )
+            fig.update_layout(
+                paper_bgcolor="#082e6e",   # Fondo de la figura
+                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                font=dict(color="#fc8c1c") # Color del texto
+            )
             st.plotly_chart(fig, use_container_width=True)
             
 # Visualizaciones 3
@@ -211,6 +219,11 @@ with st.container():
                 hover_name='cheese',
                 height=500
             )
+            fig.update_layout(
+                paper_bgcolor="#082e6e",   # Fondo de la figura
+                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                font=dict(color="#fc8c1c") # Color del texto
+            )
             fig.update_xaxes(tickangle=45)
             st.plotly_chart(fig, use_container_width=True)
 
@@ -221,7 +234,6 @@ with st.container():
     with columns[0]:
         with st.container(border=True):
             st.subheader("👃 Principales Aromas")
-
             text = " ".join(filtered_df['aroma'].dropna())
             wordcloud = WordCloud(
                 background_color='white',
