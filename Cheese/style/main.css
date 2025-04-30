@@ -49,12 +49,6 @@ section[data-testid="stSidebar"] {
   align-items: center;
 }
 
-.gif-container img {
-  width: 50%;      /* o un porcentaje como 80% */
-  height: auto;      /* mantiene la proporción */
-  border-radius: 12px;
-}
-
 .stSelectbox div[data-baseweb="select"] > div:first-child {
   background-color: #fc8c1c;
   border-color: #2d408d;
