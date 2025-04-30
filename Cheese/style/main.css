@@ -1,17 +1,14 @@
 
 /* main.css */
 
-/* Oculta el fondo del header */
+/* Quitar fondo del header */
 .stApp > header {
   background-color: transparent;
 }
 
-/* Fondo general con animación sutil */
+/* Fondo general sin animación */
 .stApp {
-  background: linear-gradient(45deg, #082e6e 10%, #0E1117 45%, #0E1117 55%, #082e6e 90%);
-  animation: backgroundShift 20s ease infinite;
-  background-size: 200% 200%;
-  background-attachment: fixed;
+  background-color: #082e6e;
   color: #fc8c1c;
   font-family: sans-serif;
 }
@@ -23,13 +20,13 @@ a {
 
 /* Sidebar */
 section[data-testid="stSidebar"] {
-  background-color: #f5eec6 !important;
+  background-color: #082e6e !important;
   color: #fc8c1c !important;
 }
 
 /* Botones */
 .stButton > button {
-  background-color: #7792E3 !important;
+  background-color: #fc8c1c !important;
   color: white !important;
   border: none;
   border-radius: 4px;
@@ -39,23 +36,9 @@ section[data-testid="stSidebar"] {
 
 /* Hover para botones */
 .stButton > button:hover {
-  background-color: #45a049 !important;
+  background-color: #082e6e !important;
   color: white !important;
 }
-
-/* Animación de fondo */
-@keyframes backgroundShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
