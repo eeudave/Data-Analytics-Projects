@@ -40,6 +40,13 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
+.stSelectbox div[data-baseweb="select"] > div:first-child {
+  background-color: #fc8c1c;
+  border-color: #2d408d;
+  color: white !important;
+}
+
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
