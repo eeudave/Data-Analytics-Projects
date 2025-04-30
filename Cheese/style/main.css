@@ -149,6 +149,11 @@ div[data-testid="stElementContainer"] {
   font-weight: bold;
 }
 
+/* Cambiar color cuando el mouse está sobre el expander */
+[data-testid="stExpander"]:hover {
+  background-color: #082e6e !important;
+}
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
