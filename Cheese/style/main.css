@@ -46,6 +46,12 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
+.stElementContainer > div[data-baseweb="select"] > div:first-child {
+  background-color: #082e6e !important;
+  border-color: #fc8c1c !important;
+  color: white !important;
+}
+
 /* Cambia el texto del selectbox */
 label[data-testid="stWidgetLabel"] p {
   color: #fc8c1c !important;
