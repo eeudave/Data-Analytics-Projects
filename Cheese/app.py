@@ -175,8 +175,8 @@ with st.container():
             )
             fig.update_layout(
                 xaxis_title="País",
-                yaxis_title="Número de quesos",
-                legend_title="Tipo de leche",
+                yaxis_title="Número de Quesos",
+                legend_title="Tipo de Leche",
                 paper_bgcolor="#082e6e",   # Fondo de la figura
                 plot_bgcolor="#082e6e",    # Fondo del área del gráfico
                 font=dict(color="#fc8c1c"), # Color del texto
@@ -231,7 +231,7 @@ with st.container():
             fig.update_layout(
                 xaxis_title="Textura",
                 yaxis_title="Sabor",
-                legend_title="Tipo de leche",
+                legend_title="Tipo de Leche",
                 paper_bgcolor="#082e6e",   # Fondo de la figura
                 plot_bgcolor="#082e6e",    # Fondo del área del gráfico
                 font=dict(color="#fc8c1c"), # Color del texto

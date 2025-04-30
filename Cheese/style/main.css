@@ -40,6 +40,14 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
+.gif-container {
+  background-color: #082e6e;
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+
 .stSelectbox div[data-baseweb="select"] > div:first-child {
   background-color: #fc8c1c;
   border-color: #2d408d;
