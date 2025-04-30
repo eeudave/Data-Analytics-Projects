@@ -257,7 +257,7 @@ with st.container():
     st.subheader("Buscador por nombre")
     search_term = st.text_input("Escribe el nombre de un queso:")
     if search_term:
-        results = cheese_df[cheese_df['cheese'].str.contains(search_term, case=False)]
+        results = filtered_df[filtered_df['cheese'].str.contains(search_term, case=False)]
         st.dataframe(results)
 
 with st.container():
