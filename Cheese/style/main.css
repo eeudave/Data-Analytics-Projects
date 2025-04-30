@@ -120,11 +120,11 @@ div[data-testid="stElementContainer"] {
 div[data-baseweb="base-input"] {
   background-color: #082e6e !important;  /* Azul */
   padding: 0px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 3px solid #fc8c1c !important;  /* Borde naranja */
 }
 
-/* Campo input (editable) */
+/* Campo input */
 div[data-baseweb="base-input"] input {
   background-color: #082e6e !important;  /* Azul */
   color: #fc8c1c !important;             /* Texto naranja */
