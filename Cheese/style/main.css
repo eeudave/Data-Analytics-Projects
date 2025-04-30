@@ -50,9 +50,9 @@ section[data-testid="stSidebar"] {
 }
 
 .gif-container img {
-  width: 80%;      /* o un porcentaje como 80% */
+  width: 50%;      /* o un porcentaje como 80% */
   height: auto;      /* mantiene la proporción */
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .stSelectbox div[data-baseweb="select"] > div:first-child {
