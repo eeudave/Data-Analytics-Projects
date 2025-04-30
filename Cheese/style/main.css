@@ -53,6 +53,10 @@ label[data-testid="stWidgetLabel"] p {
   font-size: 1.1rem;
 }
 
+/* Fondo transparente para todos los contenedores de elementos */
+div[data-testid="stElementContainer"] {
+  background-color: transparent !important;
+}
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
