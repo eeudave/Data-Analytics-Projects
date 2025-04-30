@@ -50,8 +50,8 @@ cheese_df = csv_loader()
 
 email_address ="erik.eudave@gmail.com"
 
-#lottie file
-lottie_file ="https://lottie.host/1dee94d5-9804-4bc7-8ae1-751a62023939/23rkDxJgoV.json"
+# Obtener la ruta absoluta del archivo gif
+gif_path = os.path.join(base_dir, "images", "QuesoAzul.gif")
 
 # Título
 #st.title("🧀 Cheese: Quesos del Mundo!")
@@ -82,12 +82,13 @@ if selected_milk != "Todos":
 
 #intro
 with st.container():
-    left_column, right_column= st.columns([.2,.8], gap="small", vertical_alignment="center", border=False)
+    left_column, right_column = st.columns([0.2, 0.8], gap="small", vertical_alignment="center", border=False)
+    
     with left_column:
-        # Lottie animación dentro del contenedor
-        st.markdown('<div class="lottie-container">', unsafe_allow_html=True)
-        st_lottie(lottie_loader(lottie_file), height=100, key="lottie_1")
+        st.markdown('<div class="gif-container">', unsafe_allow_html=True)
+        st.image(gif_path, use_column_width=True)  # Asegúrate de que el archivo esté en la carpeta raíz o especifica la ruta
         st.markdown('</div>', unsafe_allow_html=True)
+    
     with right_column:
         st.title("Cheese: Quesos del Mundo!")
  # Mapa
