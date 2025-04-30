@@ -181,6 +181,10 @@ with st.container():
                 paper_bgcolor="#082e6e",   # Fondo de la figura
                 plot_bgcolor="#082e6e",    # Fondo del área del gráfico
                 font=dict(color="#fc8c1c") # Color del texto
+                legend=dict(
+                    font=dict(color="#f5eec6"),
+                    title_font=dict(color="#fc8c1c")
+                )
             )
             fig.update_xaxes(tickangle=45)
 
