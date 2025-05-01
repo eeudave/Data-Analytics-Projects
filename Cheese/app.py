@@ -97,21 +97,27 @@ with st.container():
     # Contar la cantidad de quesos por país
     cheese_counts = filtered_df['country'].value_counts().reset_index()
     cheese_counts.columns = ['country', 'cheese_count']
+    # Usando una versión personalizada de YlOrBr sin los tonos claros
+    color_scale = [
+        [0, '#d95f0e'],    # Naranja medio
+        [0.5, '#993404'],  # Naranja oscuro
+        [1, '#662506']     # Marrón oscuro
+    ]
     # Acceder a la primera (y única) columna de la lista
     with columns[0]:  # 👈 Usar el primer elemento de la lista
         with st.container(border=True, key="figura0"):
             st.subheader("🌍 Mapa de Quesos por País")
             # Crear el mapa
             fig = px.choropleth(cheese_counts, 
-                                #geojson=geo,
                                 locations='country', 
                                 locationmode='country names', 
                                 color='cheese_count',
-                                #colorscale="sunsetdark",
                                 hover_name='country',
-                                #marker_opacity=0.5,
-                                #marker_line_width=0,
-                                color_continuous_scale='YlOrBr',)
+                                color_continuous_scale=[
+                                    [0, '#fab75a'],   # Naranja claro
+                                    [0.5, '#cc7d0e'],  # Naranja oscuro
+                                    [1, '#8f5401']      # Naranja mas oscuro
+                                ])
             
             # Actualizar el layout para cambiar el color de fondo
             fig.update_layout(
@@ -119,8 +125,8 @@ with st.container():
                 paper_bgcolor='#082e6e',  # Color de fondo alrededor del mapa
                 geo=dict(
                     bgcolor='#082e6e',     # Color de fondo del mapa
-                    lakecolor='#e5ecf6',   # Color de los lagos
-                    landcolor='#f0f0f0',   # Color de la tierra (áreas sin datos)
+                    lakecolor='#ffffff',   # Color de los lagos
+                    landcolor='#ffffff',   # Color de la tierra (áreas sin datos)
                     showland=True,
                     showlakes=True,
                     showocean=True,
@@ -128,7 +134,6 @@ with st.container():
                     projection_type='natural earth'
                 )
             )
-            
             # Mostrar el mapa en Streamlit ajustado al contenedor
             st.plotly_chart(fig, use_container_width=True)
           
@@ -184,7 +189,7 @@ with st.container():
                     font=dict(color="#f5eec6"),
                     title_font=dict(color="#fc8c1c")
                 ),
-                margin=dict(l=0, r=0, t=0, b=0)  # Reduce márgenes
+                margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
             )
             fig.update_xaxes(tickangle=45)
 
