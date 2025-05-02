@@ -15,7 +15,11 @@
 
 /* Enlaces */
 a {
-  color: #f5eec6;
+  color: #f7d61c;
+}
+
+p {
+  margin: 0 0 3px 0;
 }
 
 /* Sidebar */
@@ -45,6 +49,7 @@ section[data-testid="stSidebar"] {
   color: white !important;
 }
 
+/* Gif Container */
 .gif-container {
   background-color: #082e6e;
   padding: 1px;
@@ -54,10 +59,18 @@ section[data-testid="stSidebar"] {
   align-items: center;
 }
 
+/* Selectbox */
 .stSelectbox div[data-baseweb="select"] > div:first-child {
   background-color: #fc8c1c;
   border-color: #2d408d;
   color: white !important;
+}
+
+/* Cambia el texto del selectbox */
+label[data-testid="stWidgetLabel"] p {
+  color: #fc8c1c !important;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 /* Estilo personalizado para el contenedor con key="figura" */
@@ -117,11 +130,26 @@ section[data-testid="stSidebar"] {
   box-shadow: none;     /* Quita sombra si no la deseas */
 }
 
-/* Cambia el texto del selectbox */
-label[data-testid="stWidgetLabel"] p {
-  color: #fc8c1c !important;
-  font-weight: bold;
-  font-size: 1.1rem;
+.st-key-codo {
+  background-color: #082e6e;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #fc8c1c;
+  text-align: center;
+  margin: 0;
+  box-shadow: none;     /* Quita sombra si no la deseas */
+}
+
+.st-key-clusters {
+  background-color: #082e6e;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #fc8c1c;
+  text-align: center;
+  margin: 0;
+  box-shadow: none;     /* Quita sombra si no la deseas */
 }
 
 /* Fondo transparente para todos los contenedores de elementos */
@@ -130,7 +158,7 @@ div[data-testid="stElementContainer"] {
   border: 0px solid #fc8c1c !important;  /* Borde */
 }
 
-/* Contenedor externo del input */
+/* Contenedor externo del input Search */
 div[data-baseweb="base-input"] {
   background-color: #082e6e !important;  /* Azul */
   padding: 0px;
@@ -138,7 +166,7 @@ div[data-baseweb="base-input"] {
   border: 3px solid #fc8c1c !important;  /* Borde naranja */
 }
 
-/* Campo input */
+/* Campo input del Search*/
 div[data-baseweb="base-input"] input {
   background-color: #082e6e !important;  /* Azul */
   color: #fc8c1c !important;             /* Texto naranja */
@@ -150,24 +178,54 @@ div[data-baseweb="base-input"] input {
 /* Fondo naranja para st.expander */
 [data-testid="stExpander"] {
   background-color: #fc8c1c !important;
-  color: white !important;
-  border: 0px solid #2d408d;
-  border-radius: 12px;
-  font-weight: bold;
+  border: none !important;
+  border-radius: 12px !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Título del expander */
-[data-testid="stExpander"] > summary {
+/* Para el contenedor interno del expander */
+[data-testid="stExpander"] > details {
   background-color: #fc8c1c !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+/* Para el resumen (la parte clicable) del expander */
+[data-testid="stExpander"] > details > summary {
+  background-color: #fc8c1c !important;
+  padding: 12px !important;
+  margin: 0 !important;
+  font-weight: bold !important;
   color: white !important;
-  font-weight: bold;
+  border-radius: 12px !important;
+}
+
+/* Para el contenido del expander */
+[data-testid="stExpander"] > details > div {
+  background-color: #082e6e !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* Cambiar color cuando el mouse está sobre el expander */
 [data-testid="stExpander"]:hover p {
-  color: #082e6e !important;
+  color: white !important;
+}
+
+/* Dataframe */
+
+.stDataFrame {
+  background-color: #082e6e !important;
+  color: #fc8c1c !important;
+  border-radius: 12px;
+  border: 3px solid #fc8c1c !important;
+  padding: 0rem;
   font-weight: bold;
 }
+
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
@@ -184,7 +242,7 @@ input[type=message], input[type=email], input[type=text], textarea {
   
   /* Style the submit button with a specific background color etc */
   button[type=submit] {
-    background-color: #04AA6D;
+    background-color: #082e6e;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -194,7 +252,7 @@ input[type=message], input[type=email], input[type=text], textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   button[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #082e6e;
   }
   
   

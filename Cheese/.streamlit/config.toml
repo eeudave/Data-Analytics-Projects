@@ -17,7 +17,7 @@ secondaryBackgroundColor = '#f5eec6'
 textColor = '#fc8c1c'
 
 # Color used for all links.
-linkColor = '#f5eec6'
+linkColor = '#ffffff'
 
 # Font family for all text in the app, except code blocks
 # Accepted values (serif | sans serif | monospace) 
