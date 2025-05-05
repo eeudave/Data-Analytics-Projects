@@ -50,6 +50,10 @@ email_address ="erik.eudave@gmail.com"
 # Obtener la ruta absoluta del archivo gif
 gif_path = os.path.join(base_dir, "images", "QuesoAzul.gif")
 
+# --- Define Lottie animation ---
+lottie_url = "https://lottie.host/717dcd6d-d113-4163-bbb8-be4b93dfa959/gvSlVjbx3G.json"  # Replace with your Lottie URL or load from a local file
+lottie_animation = lottie_loader(lottie_url)
+
 # Título
 #st.title("🧀 Cheese: Quesos del Mundo!")
 
@@ -89,9 +93,10 @@ with st.container():
     left_column, right_column = st.columns([0.2, 0.8], gap="small", vertical_alignment="center", border=False)
     
     with left_column:
-        st.markdown('<div class="gif-container">', unsafe_allow_html=True)
-        st.image(gif_path, width=150)
-        st.markdown('</div>', unsafe_allow_html=True)
+        st_lottie(lottie_animation, height=100, loop=True, quality="high")
+        #st.markdown('<div class="gif-container">', unsafe_allow_html=True)
+        #st.image(gif_path, width=150)
+        #st.markdown('</div>', unsafe_allow_html=True)
     
     with right_column:
         st.title("Cheese: Quesos del Mundo!")

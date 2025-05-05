@@ -2,10 +2,10 @@
 
 # The preset Streamlit theme that your custom theme inherits from.
 # This can be one of the following: "light" or "dark".
-base = "dark"
+base = "light"
 
 # Primary accent for interactive elements
-primaryColor = '#7792E3'
+primaryColor = '#ffffff'
 
 # Background color for the main content area
 backgroundColor = '#082e6e'
@@ -28,7 +28,7 @@ font = "sans serif"
 [theme.sidebar]
 
 # Primary accent color.
-primaryColor = '#7792E3'
+primaryColor = '#ffffff'
 
 # Background color of the app.
 backgroundColor = '#082e6e'
