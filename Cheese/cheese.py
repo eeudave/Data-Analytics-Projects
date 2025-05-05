@@ -68,6 +68,14 @@ with st.sidebar:
     selected_milk = st.selectbox(
         "Tipo de leche", ["Todos"] + sorted(cheese_df['milk'].dropna().unique().tolist())
         )
+    with st.expander("🧠 Análisis Exploratorio de Datos (EDA)", expanded=False):
+        st.write(
+            "El análisis muestra que la mayoría de los quesos provienen de países europeos como Francia e Italia, "
+            "y se elaboran principalmente con leche de vaca, seguida por cabra y oveja. A través de visualizaciones jerárquicas, "
+            "se observa una rica diversidad de colores y familias queseras. El análisis de sabor y textura revela grupos diferenciados, "
+            "y la nube de palabras destaca aromas comunes como cremoso, afrutado e intenso. En conjunto, los datos reflejan la gran variedad "
+            "sensorial y geográfica del mundo del queso."
+        )           
 
 # Aplicar filtros
 filtered_df = cheese_df.copy()
@@ -94,12 +102,6 @@ with st.container():
     # Contar la cantidad de quesos por país
     cheese_counts = filtered_df['country'].value_counts().reset_index()
     cheese_counts.columns = ['country', 'cheese_count']
-    # Usando una versión personalizada de YlOrBr sin los tonos claros
-    color_scale = [
-        [0, '#d95f0e'],    # Naranja medio
-        [0.5, '#993404'],  # Naranja oscuro
-        [1, '#662506']     # Marrón oscuro
-    ]
     # Acceder a la primera (y única) columna de la lista
     with columns[0]:  # 👈 Usar el primer elemento de la lista
         with st.container(border=True, key="figura0"):
@@ -285,9 +287,9 @@ with st.container():
             use_container_width=True
         )    
 
-        # --- PIE DE PÁGINA ---
+# --- PIE DE PÁGINA ---
 st.markdown("---")
-st.caption("""
+st.markdown("""
     Aplicación desarrollada por [Erik Eudave ⚙️](https://github.com/eeudave/) | 
     Datos: [Kaggle Dataset](https://www.kaggle.com/datasets/umerhaddii/global-cheese-dataset/)
 """)

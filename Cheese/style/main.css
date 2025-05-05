@@ -45,7 +45,7 @@ section[data-testid="stSidebar"] {
 
 /* Hover para botones */
 .stButton > button:hover {
-  background-color: #082e6e !important;
+  background-color: #194ca4 !important;
   color: white !important;
 }
 
@@ -79,77 +79,84 @@ label[data-testid="stWidgetLabel"] p {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 .st-key-figura1 {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 .st-key-figura2 {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 .st-key-figura3 {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 .st-key-figura4 {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 .st-key-codo {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 .st-key-clusters {
   background-color: #082e6e;
   border: 3px solid #fc8c1c;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fc8c1c;
   text-align: center;
   margin: 0;
   box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
 }
 
 /* Fondo transparente para todos los contenedores de elementos */
@@ -177,7 +184,7 @@ div[data-baseweb="base-input"] input {
 
 /* Fondo naranja para st.expander */
 [data-testid="stExpander"] {
-  background-color: #fc8c1c !important;
+  background-color: #2d408d !important;
   border: none !important;
   border-radius: 12px !important;
   margin: 0 !important;
@@ -186,7 +193,7 @@ div[data-baseweb="base-input"] input {
 
 /* Para el contenedor interno del expander */
 [data-testid="stExpander"] > details {
-  background-color: #fc8c1c !important;
+  background-color: #2d408d !important;
   padding: 0 !important;
   margin: 0 !important;
   border: none !important;
@@ -195,7 +202,7 @@ div[data-baseweb="base-input"] input {
 
 /* Para el resumen (la parte clicable) del expander */
 [data-testid="stExpander"] > details > summary {
-  background-color: #fc8c1c !important;
+  background-color: #2d408d !important;
   padding: 12px !important;
   margin: 0 !important;
   font-weight: bold !important;
@@ -252,7 +259,7 @@ input[type=message], input[type=email], input[type=text], textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   button[type=submit]:hover {
-    background-color: #082e6e;
+    background-color: #194ca4;
   }
   
   

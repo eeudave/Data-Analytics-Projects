@@ -136,7 +136,7 @@ with col_filters:
                 st.write(f"- {country}: {count} quesos")
     
 with col_results:
-    st.markdown("Quesos Recomendados", unsafe_allow_html=True)
+    st.markdown("Quesos Recomendados:", unsafe_allow_html=True)
     
     # Obtener recomendaciones
     recomendados = recomendar_quesos_por_familia(cheese_df, selected_family, top_n=num_recommendations)

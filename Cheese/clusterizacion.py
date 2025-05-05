@@ -263,22 +263,36 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                 
                 if clustering_method in ["Clustering Jerárquico", "Ambos"] and 'hierarchical_clusters' in st.session_state:
                     pca_df['Hierarchical Cluster'] = st.session_state.hierarchical_clusters
+
+                # Definir paleta de colores
+                paleta = [
+                    '#7f3300',  # Naranja muy oscuro (casi marrón)
+                    '#993d00',
+                    '#b34700',
+                    '#cc5900',
+                    '#e67300',
+                    '#ff7f0e',  # Naranja base de Plotly
+                    '#ff9933',
+                    '#ffb366'   # Naranja claro (sin llegar a blanco)
+                ]
                 
                 # Visualización del PCA con Plotly
                 if clustering_method == "K-Means" and 'K-Means Cluster' in pca_df.columns:
                     fig_pca = px.scatter(
                         pca_df, x='PC1', y='PC2', color='K-Means Cluster',
-                        color_continuous_scale=px.colors.qualitative.G10,
+                        color_continuous_scale=paleta,
                         title='Clusters K-Means (PCA)'
                     )
+                    fig_pca.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                     st.plotly_chart(fig_pca, use_container_width=True)
                 
                 elif clustering_method == "Clustering Jerárquico" and 'Hierarchical Cluster' in pca_df.columns:
                     fig_pca = px.scatter(
                         pca_df, x='PC1', y='PC2', color='Hierarchical Cluster',
-                        color_continuous_scale=px.colors.qualitative.G10,
+                        color_continuous_scale=paleta,
                         title='Clusters Jerárquicos (PCA)'
                     )
+                    fig_pca.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                     st.plotly_chart(fig_pca, use_container_width=True)
                 
                 elif clustering_method == "Ambos":
@@ -292,32 +306,36 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         with tab1:
                             fig_kmeans = px.scatter(
                                 pca_df, x='PC1', y='PC2', color='K-Means Cluster',
-                                color_continuous_scale=px.colors.qualitative.G10,
+                                color_continuous_scale=paleta,
                                 title='Clusters K-Means (PCA)'
                             )
+                            fig_kmeans.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                             st.plotly_chart(fig_kmeans, use_container_width=True)
                         
                         with tab2:
                             fig_hierarchical = px.scatter(
                                 pca_df, x='PC1', y='PC2', color='Hierarchical Cluster',
-                                color_continuous_scale=px.colors.qualitative.G10,
+                                color_continuous_scale=paleta,
                                 title='Clusters Jerárquicos (PCA)'
                             )
+                            fig_hierarchical.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                             st.plotly_chart(fig_hierarchical, use_container_width=True)
                     elif has_kmeans:
                         fig_kmeans = px.scatter(
                             pca_df, x='PC1', y='PC2', color='K-Means Cluster',
-                            color_continuous_scale=px.colors.qualitative.G10,
+                            color_continuous_scale=paleta,
                             title='Clusters K-Means (PCA)'
                         )
+                        fig_kmeans.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                         st.plotly_chart(fig_kmeans, use_container_width=True)
                         st.warning("Los clusters jerárquicos no están disponibles para visualización.")
                     elif has_hierarchical:
                         fig_hierarchical = px.scatter(
                             pca_df, x='PC1', y='PC2', color='Hierarchical Cluster',
-                            color_continuous_scale=px.colors.qualitative.G10,
+                            color_continuous_scale=paleta,
                             title='Clusters Jerárquicos (PCA)'
                         )
+                        fig_hierarchical.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                         st.plotly_chart(fig_hierarchical, use_container_width=True)
                         st.warning("Los clusters K-Means no están disponibles para visualización.")
                     else:
