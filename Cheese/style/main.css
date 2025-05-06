@@ -159,6 +159,18 @@ label[data-testid="stWidgetLabel"] p {
   overflow: auto;
 }
 
+.st-key-pages {
+  background-color: #082e6e;
+  border: 3px solid #fc8c1c;
+  border-radius: 12px;
+  padding: 0.5rem;
+  color: #fc8c1c;
+  text-align: center;
+  margin: 0;
+  box-shadow: none;     /* Quita sombra si no la deseas */
+  overflow: auto;
+}
+
 /* Fondo transparente para todos los contenedores de elementos */
 div[data-testid="stElementContainer"] {
   background-color: #082e6e !important;  /* Fondo */
@@ -261,22 +273,12 @@ div[data-baseweb="base-input"] input {
 /* Cambia el color al pasar el mouse en st.Page*/
 .st-emotion-cache-7a8nvr.e19011e65:hover .st-emotion-cache-1oeflpy.e19011e66,
 .st-emotion-cache-18pkpic.e19011e65:hover .st-emotion-cache-1kudkox.e19011e66 {
-    color: #FFFFFF !important;  /* Color rojo oscuro al hacer hover */
+    color: #FFFFFF !important;  /* Color blanco al hacer hover */
 }
 
 /* Cambia el color del valor numérico del st.metric*/
 .st-emotion-cache-1wivap2.ehvl34q1 {
   color: #FFFFFF !important;  /* Rojo - cambia este valor */
-}
-
-/* Opcional: cambiar el color de la etiqueta (si necesitas) */
-.st-emotion-cache-1xarl3l.ehvl34q2 {
-  color: #00FF00 !important;  /* Verde para la etiqueta */
-}
-
-/* Opcional: cambiar el color del delta (si usas delta en st.metric) */
-.st-emotion-cache-1m6wrpk.ef3psqc5 {
-  color: #0000FF !important;  /* Azul para el delta */
 }
 
 /* Cambia el color del texto en las pestañas INACTIVAS */
