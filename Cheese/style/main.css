@@ -241,14 +241,31 @@ div[data-baseweb="base-input"] input {
   justify-content: center;
 }
 
-/* Cambia el color de todos los títulos de navegación */
-.stPageLink > div > div {
-  color: #fc8c1c !important;  /* Cambia este valor al color que prefieras */
+/* Cambia el color de todos los títulos st.Page*/
+.st-emotion-cache-1oeflpy.e19011e66,
+.st-emotion-cache-1kudkox.e19011e66 {
+    color: #fc8c1c !important;  /* Color naranja - cámbialo a tu preferencia */
 }
 
-/* Opcional: Cambia el color al pasar el mouse */
-.stPageLink:hover > div > div {
-  color: #C70039 !important;
+/* Cambia el color al pasar el mouse en st.Page*/
+.st-emotion-cache-7a8nvr.e19011e65:hover .st-emotion-cache-1oeflpy.e19011e66,
+.st-emotion-cache-18pkpic.e19011e65:hover .st-emotion-cache-1kudkox.e19011e66 {
+    color: #FFFFFF !important;  /* Color rojo oscuro al hacer hover */
+}
+
+/* Cambia el color del valor numérico del st.metric*/
+.st-emotion-cache-1wivap2.ehvl34q1 {
+  color: #FFFFFF !important;  /* Rojo - cambia este valor */
+}
+
+/* Opcional: cambiar el color de la etiqueta (si necesitas) */
+.st-emotion-cache-1xarl3l.ehvl34q2 {
+  color: #00FF00 !important;  /* Verde para la etiqueta */
+}
+
+/* Opcional: cambiar el color del delta (si usas delta en st.metric) */
+.st-emotion-cache-1m6wrpk.ef3psqc5 {
+  color: #0000FF !important;  /* Azul para el delta */
 }
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
