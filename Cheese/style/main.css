@@ -235,12 +235,12 @@ div[data-baseweb="base-input"] input {
 
 /* Fondo de las celdas */
 .stDataFrame td {
-  background-color: #f8f9fa !important;  /* Color de celdas */
+  background-color: #98c7f6 !important;  /* Color de celdas */
 }
 
 /* Fondo del encabezado */
 .stDataFrame th {
-  background-color: #4a8cff !important;  /* Azul claro */
+  background-color: #1e468b !important;  /* Azul claro */
   color: white !important;  /* Texto blanco */
 }
 
