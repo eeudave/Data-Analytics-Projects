@@ -236,6 +236,7 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         font=dict(color="#fc8c1c"), # Color del texto
                         margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
                     )
+                    fig_elbow.update_traces(line_width=4)  # Cambia 4 al grosor deseado
                     st.plotly_chart(fig_elbow, use_container_width=True)
                 
                 with col2:
@@ -253,6 +254,7 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         font=dict(color="#fc8c1c"), # Color del texto
                         margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
                     )
+                    fig_silhouette.update_traces(line_width=4)  # Cambia 4 al grosor deseado
                     st.plotly_chart(fig_silhouette, use_container_width=True)
     
     with st.container():
