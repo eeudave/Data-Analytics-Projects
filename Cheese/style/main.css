@@ -241,6 +241,16 @@ div[data-baseweb="base-input"] input {
   justify-content: center;
 }
 
+/* Cambia el color de todos los títulos de navegación */
+.stPageLink > div > div {
+  color: #fc8c1c !important;  /* Cambia este valor al color que prefieras */
+}
+
+/* Opcional: Cambia el color al pasar el mouse */
+.stPageLink:hover > div > div {
+  color: #C70039 !important;
+}
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
