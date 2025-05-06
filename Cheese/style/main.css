@@ -234,7 +234,11 @@ div[data-baseweb="base-input"] input {
 }
 
 .lottie-container {
-  background-color: #fc8c1c;
+  background-color: transparent; /* Cambia este color según lo necesites */
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
