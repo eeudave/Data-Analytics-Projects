@@ -268,6 +268,17 @@ div[data-baseweb="base-input"] input {
   color: #0000FF !important;  /* Azul para el delta */
 }
 
+/* Cambia el color del texto en las pestañas INACTIVAS */
+button[data-baseweb="tab"] > div[data-testid="stMarkdownContainer"] > p {
+  color: #fc8c1c !important;  /* Naranja (cambia este valor) */
+}
+
+/* Cambia el color del texto en la pestaña ACTIVA */
+button[aria-selected="true"] > div[data-testid="stMarkdownContainer"] > p {
+  color: #FFFFFF !important;  /* Verde (cambia este valor) */
+  font-weight: bold;
+}
+
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
 input[type=message], input[type=email], input[type=text], textarea {
