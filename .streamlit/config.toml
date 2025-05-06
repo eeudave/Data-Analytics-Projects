@@ -3,7 +3,7 @@
 primaryColor = "#FFFFFF"  # Color primario para elementos interactivos Verde Spotify
 backgroundColor = "#ffffff"  # Fondo blanco
 secondaryBackgroundColor = "#ffffff"  # Fondo secundario (sidebars, etc.) - blanco
-textColor = "#ffffff"  # Color de texto principal - negro
+textColor = "#050505"  # Color de texto principal - negro
 
 # Colores específicos para widgets y componentes
 font = "sans serif" 
