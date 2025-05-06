@@ -230,6 +230,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         labels={'x': 'Número de clusters', 'y': 'Inercia'},
                         title='Método del Codo'
                     )
+                    fig_elbow.update_layout(
+                        paper_bgcolor="#082e6e",   # Fondo de la figura
+                        plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                        font=dict(color="#fc8c1c"), # Color del texto
+                        margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
+                    )
                     st.plotly_chart(fig_elbow, use_container_width=True)
                 
                 with col2:
@@ -240,6 +246,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         markers=True,
                         labels={'x': 'Número de clusters', 'y': 'Silhouette Score'},
                         title='Silhouette Score por Número de Clusters'
+                    )
+                    fig_silhouette.update_layout(
+                        paper_bgcolor="#082e6e",   # Fondo de la figura
+                        plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                        font=dict(color="#fc8c1c"), # Color del texto
+                        margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
                     )
                     st.plotly_chart(fig_silhouette, use_container_width=True)
     
@@ -283,6 +295,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         color_continuous_scale=paleta,
                         title='Clusters K-Means (PCA)'
                     )
+                    fig_pca.update_layout(
+                        paper_bgcolor="#082e6e",   # Fondo de la figura
+                        plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                        font=dict(color="#fc8c1c"), # Color del texto
+                        margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
+                    )
                     fig_pca.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                     st.plotly_chart(fig_pca, use_container_width=True)
                 
@@ -291,6 +309,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                         pca_df, x='PC1', y='PC2', color='Hierarchical Cluster',
                         color_continuous_scale=paleta,
                         title='Clusters Jerárquicos (PCA)'
+                    )
+                    fig_pca.update_layout(
+                        paper_bgcolor="#082e6e",   # Fondo de la figura
+                        plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                        font=dict(color="#fc8c1c"), # Color del texto
+                        margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
                     )
                     fig_pca.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                     st.plotly_chart(fig_pca, use_container_width=True)
@@ -309,6 +333,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                                 color_continuous_scale=paleta,
                                 title='Clusters K-Means (PCA)'
                             )
+                            fig_kmeans.update_layout(
+                                paper_bgcolor="#082e6e",   # Fondo de la figura
+                                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                                font=dict(color="#fc8c1c"), # Color del texto
+                                margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
+                            )
                             fig_kmeans.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                             st.plotly_chart(fig_kmeans, use_container_width=True)
                         
@@ -318,6 +348,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                                 color_continuous_scale=paleta,
                                 title='Clusters Jerárquicos (PCA)'
                             )
+                            fig_hierarchical.update_layout(
+                                paper_bgcolor="#082e6e",   # Fondo de la figura
+                                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                                font=dict(color="#fc8c1c"), # Color del texto
+                                margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
+                            )
                             fig_hierarchical.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                             st.plotly_chart(fig_hierarchical, use_container_width=True)
                     elif has_kmeans:
@@ -326,6 +362,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                             color_continuous_scale=paleta,
                             title='Clusters K-Means (PCA)'
                         )
+                        fig_kmeans.update_layout(
+                                paper_bgcolor="#082e6e",   # Fondo de la figura
+                                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                                font=dict(color="#fc8c1c"), # Color del texto
+                                margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
+                            )
                         fig_kmeans.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                         st.plotly_chart(fig_kmeans, use_container_width=True)
                         st.warning("Los clusters jerárquicos no están disponibles para visualización.")
@@ -335,6 +377,12 @@ if 'clustering_done' in st.session_state and st.session_state.clustering_done:
                             color_continuous_scale=paleta,
                             title='Clusters Jerárquicos (PCA)'
                         )
+                        fig_hierarchical.update_layout(
+                                paper_bgcolor="#082e6e",   # Fondo de la figura
+                                plot_bgcolor="#082e6e",    # Fondo del área del gráfico
+                                font=dict(color="#fc8c1c"), # Color del texto
+                                margin=dict(l=0, r=5, t=0, b=0)  # Reduce márgenes
+                            )
                         fig_hierarchical.update_traces(marker=dict(size=15, opacity=0.7))  # tamaño fijo para todos
                         st.plotly_chart(fig_hierarchical, use_container_width=True)
                         st.warning("Los clusters K-Means no están disponibles para visualización.")
