@@ -93,17 +93,9 @@ with st.container():
     left_column, right_column = st.columns([0.2, 0.8], gap="small", vertical_alignment="center", border=False)
     
     with left_column:
-        st.markdown('<div class="lottie-container">', unsafe_allow_html=True)
-        st_lottie(
-            lottie_animation, 
-            height=100, 
-            loop=True, 
-            quality="high"
-        )
-        st.markdown("</div>", unsafe_allow_html=True)
-        #st.markdown('<div class="gif-container">', unsafe_allow_html=True)
-        #st.image(gif_path, width=150)
-        #st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('<div class="gif-container">', unsafe_allow_html=True)
+        st.image(gif_path, width=150)
+        st.markdown('</div>', unsafe_allow_html=True)
     
     with right_column:
         st.title("Cheese: Quesos del Mundo!")

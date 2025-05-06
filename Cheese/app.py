@@ -1,22 +1,22 @@
 import streamlit as st
+import os
 
 # Configuracion de la pagina
 st.set_page_config(page_title="Cheese", page_icon="🧀", layout="wide") 
 
-# CSS personalizado para cambiar el color de los títulos de navegación
-st.markdown("""
-<style>
-/* Cambia el color de todos los títulos de navegación */
-.stPageLink > div > div {
-    color: #FF5733 !important;  /* Cambia este valor al color que prefieras */
-}
+# Para obtener la ruta absoluta de los archivos
+base_dir = os.path.dirname(os.path.abspath(__file__))  
 
-/* Opcional: Cambia el color al pasar el mouse */
-.stPageLink:hover > div > div {
-    color: #C70039 !important;
-}
-</style>
-""", unsafe_allow_html=True)
+# Obtener la ruta absoluta del archivo css
+css_path = os.path.join(base_dir, "style", "main.css")
+
+#funcion carga CSS
+def css_loader():
+    with open(css_path) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+#carga css
+css_loader()
 
 # Define the pages
 main_page = st.Page("cheese.py", title="Cheese", icon="🧀")
