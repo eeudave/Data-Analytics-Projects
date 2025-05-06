@@ -233,14 +233,14 @@ div[data-baseweb="base-input"] input {
   font-weight: bold;
 }
 
-/* Fondo de las celdas */
-.stDataFrame td {
-  background-color: #98c7f6 !important;  /* Color de celdas */
+/* Cambiar el fondo de las celdas */
+[data-testid="data-grid-canvas"] table tbody tr td {
+  background-color: #082e6e !important;  /* Azul claro */
 }
 
-/* Fondo del encabezado */
-.stDataFrame th {
-  background-color: #1e468b !important;  /* Azul claro */
+/* Cambiar el fondo del encabezado */
+[data-testid="data-grid-canvas"] table thead tr th {
+  background-color: #4a8cff !important;  /* Azul más oscuro */
   color: white !important;  /* Texto blanco */
 }
 
