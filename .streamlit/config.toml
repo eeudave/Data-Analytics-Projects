@@ -1,9 +1,45 @@
 [theme]
-# Fondo principal de la aplicación - gris claro
-primaryColor = "#FFFFFF"  # Color primario para elementos interactivos Verde Spotify
-backgroundColor = "#ffffff"  # Fondo blanco
-secondaryBackgroundColor = "#ffffff"  # Fondo secundario (sidebars, etc.) - blanco
-textColor = "#050505"  # Color de texto principal - negro
 
-# Colores específicos para widgets y componentes
-font = "sans serif" 
+# The preset Streamlit theme that your custom theme inherits from.
+# This can be one of the following: "light" or "dark".
+base = "light"
+
+# Primary accent for interactive elements
+primaryColor = '#1ED760'
+
+# Background color for the main content area
+backgroundColor = '#FFFFFF'
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = '#FFFFFF'
+
+# Color used for almost all text
+textColor = '#050505'
+
+# Color used for all links.
+linkColor = '#1ED760'
+
+# Font family for all text in the app, except code blocks
+# Accepted values (serif | sans serif | monospace) 
+# Default: "sans serif"
+font = "sans serif"
+
+
+[theme.sidebar]
+
+# Primary accent color.
+primaryColor = '#1ED760'
+
+# Background color of the app.
+backgroundColor = '#FFFFFF'
+
+# Background color used for most interactive widgets.
+secondaryBackgroundColor = '#1ED760'
+
+# Color used for almost all text.
+textColor = '#050505'
+
+# Color used for all links.
+linkColor = '#1ED760'
+
+font = "sans serif"
